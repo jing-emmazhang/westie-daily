@@ -26,12 +26,15 @@ body{
   background-repeat:no-repeat;background-position:right 10px center;
 }
 
-/* ── 瀑布流网格 ── */
+/* ── 网格 ── */
 .grid{
   max-width:1160px;margin:0 auto;
-  column-count:3;column-gap:14px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+  align-items:start;
 }
-.card-wrap{break-inside:avoid;margin-bottom:14px}
+.card-wrap{}
 .empty{max-width:1160px;margin:80px auto;text-align:center;color:#bbb;font-size:14px}
 .loading{max-width:1160px;margin:80px auto;text-align:center;color:#bbb;font-size:13px}
 
@@ -144,8 +147,8 @@ details[open] summary::before{content:'▾  '}
 .card.adopted .adopted-tag{display:inline-flex}
 
 /* ── 响应式 ── */
-@media(max-width:860px){.grid{column-count:2}}
-@media(max-width:520px){.grid{column-count:1}}
+@media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
