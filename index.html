@@ -4,102 +4,142 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>西高地每日热点</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Helvetica Neue',sans-serif;
-     background:#f0f2f5;min-height:100vh;padding:24px 16px;color:#111}
+body{
+  font-family:'Noto Sans SC',-apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;
+  background:#f5f5f5;min-height:100vh;padding:20px 16px;color:#111;
+  -webkit-font-smoothing:antialiased;
+}
 
 /* ── 顶栏 ── */
-.header{max-width:900px;margin:0 auto 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.header h1{font-size:17px;font-weight:700;color:#111}
-.meta{font-size:12px;color:#aaa;margin-left:auto}
-.date-select{padding:5px 28px 5px 12px;border:1.5px solid #dde1e8;border-radius:8px;
-             font-size:13px;background:#fff;cursor:pointer;outline:none;color:#333;
-             appearance:none;-webkit-appearance:none;
-             background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23999' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
-             background-repeat:no-repeat;background-position:right 10px center}
+.header{max-width:1160px;margin:0 auto 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.header h1{font-size:18px;font-weight:700;letter-spacing:-.2px;color:#111}
+.meta{font-size:12px;color:#bbb;margin-left:auto}
+.date-select{
+  padding:6px 28px 6px 12px;border:1px solid #e0e0e0;border-radius:8px;
+  font-size:13px;font-family:inherit;background:#fff;cursor:pointer;outline:none;color:#333;
+  appearance:none;-webkit-appearance:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23999' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 10px center;
+}
 
-/* ── 列表 ── */
-.list{max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:10px}
-.empty{max-width:900px;margin:80px auto;text-align:center;color:#bbb;font-size:14px}
-.loading{max-width:900px;margin:80px auto;text-align:center;color:#bbb;font-size:13px}
+/* ── 瀑布流网格 ── */
+.grid{
+  max-width:1160px;margin:0 auto;
+  column-count:3;column-gap:14px;
+}
+.card-wrap{break-inside:avoid;margin-bottom:14px}
+.empty{max-width:1160px;margin:80px auto;text-align:center;color:#bbb;font-size:14px}
+.loading{max-width:1160px;margin:80px auto;text-align:center;color:#bbb;font-size:13px}
 
 /* ── 卡片 ── */
-.card{background:#fff;border-radius:12px;padding:18px 20px;
-      border:1px solid #e8eaed;
-      display:flex;gap:16px;align-items:flex-start;
-      transition:box-shadow .15s}
-.card:hover{box-shadow:0 2px 12px rgba(0,0,0,.07)}
-.card.adopted{opacity:.55}
+.card{
+  background:#fff;border-radius:14px;overflow:hidden;
+  border:1px solid #ebebeb;
+  transition:box-shadow .15s,transform .15s;
+}
+.card:hover{box-shadow:0 4px 20px rgba(0,0,0,.09);transform:translateY(-1px)}
+.card.adopted{opacity:.5}
 
-/* ── 排名数字 ── */
-.rank-col{flex-shrink:0;width:36px;display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:2px}
-.rank-num{width:30px;height:30px;border-radius:50%;
-  font-size:13px;font-weight:700;
-  display:flex;align-items:center;justify-content:center}
-.rank-num.r1{background:#1a6ef5;color:#fff}
-.rank-num.r2{background:#e8f0fe;color:#1a6ef5}
-.rank-num.r3{background:#e8f0fe;color:#1a6ef5}
-.rank-num.rn{background:#f0f2f5;color:#888}
-.adopted-badge{font-size:10px;color:#1a6ef5;font-weight:600;text-align:center;line-height:1.2}
-
-/* ── 内容列 ── */
-.content{flex:1;display:flex;flex-direction:column;gap:10px;min-width:0}
-
-/* ── 顶部行 ── */
-.row-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-.source-badge{font-size:11px;padding:2px 8px;border-radius:6px;font-weight:600;
-              background:#e8f0fe;color:#1a6ef5}
+/* ── 卡片头部色条 ── */
+.card-head{
+  padding:14px 16px 12px;
+  border-bottom:1px solid #f2f2f2;
+  display:flex;align-items:flex-start;gap:10px;
+}
+.rank-num{
+  flex-shrink:0;width:28px;height:28px;border-radius:50%;
+  font-size:12px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+}
+.rank-num.r1{background:#246BC1;color:#fff}
+.rank-num.r2{background:#D9E8F7;color:#246BC1}
+.rank-num.r3{background:#D9E8F7;color:#246BC1}
+.rank-num.rn{background:#f0f0f0;color:#999}
+.head-right{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}
+.badges{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.source-badge{
+  font-size:11px;padding:2px 7px;border-radius:5px;font-weight:600;
+  background:#EBF3FB;color:#246BC1;
+}
 .source-badge.account{background:#edf7ee;color:#1a8a35}
-.view-link{margin-left:auto;font-size:12px;color:#1a6ef5;text-decoration:none;font-weight:500;white-space:nowrap}
+.view-link{
+  margin-left:auto;font-size:12px;color:#246BC1;text-decoration:none;
+  font-weight:500;white-space:nowrap;flex-shrink:0;
+}
 .view-link:hover{text-decoration:underline}
 
-/* ── 文字 ── */
-.highlight{font-size:14px;font-weight:600;line-height:1.5;color:#111}
-.desc{font-size:12px;color:#777;line-height:1.6}
-
-/* ── 数据行 ── */
-.stats{display:flex;gap:16px;font-size:12px;color:#999;align-items:center}
+/* ── 카드 본문 ── */
+.card-body{padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.highlight{font-size:14px;font-weight:700;line-height:1.55;color:#111;letter-spacing:-.1px}
+.desc{font-size:12px;color:#888;line-height:1.65}
+.stats{display:flex;gap:14px;font-size:12px;color:#bbb}
 
 /* ── 评分明细 ── */
-details{font-size:12px;border-top:1px solid #f0f2f5;padding-top:10px}
-summary{color:#aaa;cursor:pointer;user-select:none;list-style:none;font-size:12px}
+details{font-size:12px;padding-top:4px}
+summary{
+  color:#ccc;cursor:pointer;user-select:none;list-style:none;
+  font-size:11px;letter-spacing:.3px;
+}
 summary::-webkit-details-marker{display:none}
-summary::before{content:'▸ ';font-size:10px}
-details[open] summary::before{content:'▾ '}
-.score-grid{margin-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:8px 24px}
-.score-item{display:flex;flex-direction:column;gap:4px}
-.score-item.total{grid-column:1/-1;border-top:1px solid #f0f2f5;padding-top:8px;
-  flex-direction:row;justify-content:space-between;align-items:center}
-.score-label{font-size:11px;color:#aaa}
-.score-row{display:flex;align-items:center;gap:8px}
-.bar-track{flex:1;background:#f0f2f5;border-radius:3px;height:4px;overflow:hidden}
-.bar-fill{height:4px;border-radius:3px}
-.score-val{font-size:11px;color:#888;width:32px;text-align:right;flex-shrink:0}
-.total-label{font-size:12px;color:#666;font-weight:500}
-.total-val{font-size:16px;font-weight:700;color:#1a6ef5}
+summary::before{content:'▸  ';font-size:9px}
+details[open] summary::before{content:'▾  '}
+.score-grid{margin-top:10px;display:flex;flex-direction:column;gap:7px}
+.score-row-item{display:flex;align-items:center;gap:8px}
+.score-label{font-size:11px;color:#bbb;width:60px;flex-shrink:0}
+.bar-track{flex:1;background:#f2f2f2;border-radius:3px;height:3px;overflow:hidden}
+.bar-fill{height:3px;border-radius:3px}
+.score-val{font-size:11px;color:#ccc;width:24px;text-align:right;flex-shrink:0}
+.score-total{
+  display:flex;justify-content:space-between;align-items:center;
+  padding-top:8px;margin-top:2px;border-top:1px solid #f2f2f2;
+}
+.total-label{font-size:11px;color:#aaa;font-weight:500}
+.total-val{font-size:15px;font-weight:700;color:#246BC1}
+.total-val span{font-size:11px;color:#ccc;font-weight:400}
 
-/* ── 提示词区 ── */
-.prompt-box{background:#f7f9ff;border:1px solid #dde6ff;border-radius:8px;padding:12px}
+/* ── 分割线 ── */
+.divider{height:1px;background:#f2f2f2;margin:0 -0px}
+
+/* ── 提示词 ── */
+.prompt-box{background:#F2F7FD;border-radius:9px;padding:11px 12px}
 .prompt-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
-.prompt-label{font-size:11px;color:#1a6ef5;font-weight:600}
-.prompt-text{font-size:12px;color:#444;line-height:1.6;word-break:break-word}
+.prompt-label{font-size:11px;color:#246BC1;font-weight:600;letter-spacing:.1px}
+.prompt-text{font-size:11.5px;color:#555;line-height:1.7;word-break:break-word}
 
-/* ── 按钮行 ── */
-.row-actions{display:flex;gap:8px}
-.btn{border:1px solid #e8eaed;border-radius:7px;font-size:12px;font-weight:500;
-     padding:6px 14px;cursor:pointer;background:#fff;color:#555;transition:all .15s}
-.btn:hover{background:#f7f9ff;border-color:#c5d5ff;color:#1a6ef5}
-.btn-adopt.active{background:#1a6ef5;color:#fff;border-color:#1a6ef5}
-.btn.flash{background:#1a6ef5 !important;color:#fff !important;border-color:#1a6ef5 !important}
+/* ── 底部操作 ── */
+.card-footer{padding:0 16px 14px}
+.btn-adopt{
+  width:100%;border:1px solid #e8e8e8;border-radius:8px;
+  font-size:12px;font-weight:500;font-family:inherit;
+  padding:8px;cursor:pointer;background:#fff;color:#888;
+  transition:all .15s;
+}
+.btn-adopt:hover{background:#F2F7FD;border-color:#BDD6EF;color:#246BC1}
+.btn-adopt.active{background:#246BC1;color:#fff;border-color:#246BC1}
+.btn-copy{
+  border:none;border-radius:6px;
+  font-size:11px;font-weight:500;font-family:inherit;
+  padding:3px 9px;cursor:pointer;
+  background:#246BC1;color:#fff;
+  transition:opacity .15s;flex-shrink:0;
+}
+.btn-copy:hover{opacity:.85}
+.btn.flash{opacity:.7}
+
+/* ── 已采用徽章 ── */
+.adopted-tag{
+  display:none;font-size:10px;color:#246BC1;font-weight:600;
+  background:#D9E8F7;padding:2px 7px;border-radius:5px;
+}
+.card.adopted .adopted-tag{display:inline-flex}
 
 /* ── 响应式 ── */
-@media(max-width:600px){
-  .card{flex-direction:column;gap:12px}
-  .rank-col{flex-direction:row;width:100%;gap:10px}
-  .score-grid{grid-template-columns:1fr}
-  .score-item.total{grid-column:unset}
-}
+@media(max-width:860px){.grid{column-count:2}}
+@media(max-width:520px){.grid{column-count:1}}
 </style>
 </head>
 <body>
@@ -112,7 +152,7 @@ details[open] summary::before{content:'▾ '}
   <span class="meta" id="metaInfo"></span>
 </div>
 
-<div id="list" class="list">
+<div id="grid" class="grid">
   <div class="loading">加载数据中...</div>
 </div>
 
@@ -127,7 +167,7 @@ async function flashBtn(btn,text){
   const orig=btn.textContent;
   btn.textContent=text;
   btn.classList.add('flash');
-  await new Promise(r=>setTimeout(r,1500));
+  await new Promise(r=>setTimeout(r,1200));
   btn.textContent=orig;
   btn.classList.remove('flash');
 }
@@ -135,7 +175,7 @@ async function flashBtn(btn,text){
 async function copyText(text,btn){
   try{
     await navigator.clipboard.writeText(text);
-    flashBtn(btn,'✓ 已复制');
+    flashBtn(btn,'✓');
   }catch(e){
     prompt('复制提示词：',text);
   }
@@ -148,13 +188,11 @@ function toggleAdopt(url,btn,card){
     card.classList.remove('adopted');
     btn.textContent='标记采用';
     btn.classList.remove('active');
-    card.querySelector('.adopted-badge').textContent='';
   }else{
     localStorage.setItem(key,Date.now());
     card.classList.add('adopted');
     btn.textContent='✓ 已采用';
     btn.classList.add('active');
-    card.querySelector('.adopted-badge').textContent='已采用';
   }
 }
 
@@ -182,20 +220,22 @@ function renderCard(p){
   const promptDisplay=(p.westie_prompt||'').replace(/</g,'&lt;');
 
   return `
+<div class="card-wrap">
 <div class="card${adopted?' adopted':''}" id="card-${p.rank}">
-  <div class="rank-col">
+  <div class="card-head">
     <div class="rank-num ${rankCls}">${p.rank}</div>
-    <div class="adopted-badge">${adopted?'已采用':''}</div>
-  </div>
-  <div class="content">
-    <div class="row-top">
-      <span class="source-badge ${src.cls}">${src.label} · ${p.source_name||''}</span>
-      <a class="view-link" href="${p.url}" target="_blank" rel="noopener">查看原帖 →</a>
+    <div class="head-right">
+      <div class="badges">
+        <span class="source-badge ${src.cls}">${src.label} · ${p.source_name||''}</span>
+        <span class="adopted-tag">已采用</span>
+        <a class="view-link" href="${p.url}" target="_blank" rel="noopener">原帖 →</a>
+      </div>
     </div>
+  </div>
 
+  <div class="card-body">
     <p class="highlight">${p.highlight||''}</p>
     <p class="desc">${p.description_zh||p.description||''}</p>
-
     <div class="stats">
       <span>❤️ ${fmtLikes(p.post_likes||0)}</span>
       <span>${Math.round(p.age_days||0)} 天前</span>
@@ -204,30 +244,24 @@ function renderCard(p){
     <details>
       <summary>评分明细</summary>
       <div class="score-grid">
-        <div class="score-item">
-          <span class="score-label">绝对热度 /4</span>
-          <div class="score-row">
-            ${bar(bd.absolute_likes||0,4,'#1a6ef5')}
-            <span class="score-val">${bd.absolute_likes||0}</span>
-          </div>
+        <div class="score-row-item">
+          <span class="score-label">绝对热度</span>
+          ${bar(bd.absolute_likes||0,4,'#246BC1')}
+          <span class="score-val">${bd.absolute_likes||0}/4</span>
         </div>
-        <div class="score-item">
-          <span class="score-label">来源加成 /2</span>
-          <div class="score-row">
-            ${bar(bd.source_bonus||0,2,'#34a853')}
-            <span class="score-val">${bd.source_bonus||0}</span>
-          </div>
+        <div class="score-row-item">
+          <span class="score-label">来源加成</span>
+          ${bar(bd.source_bonus||0,2,'#34a853')}
+          <span class="score-val">${bd.source_bonus||0}/2</span>
         </div>
-        <div class="score-item">
-          <span class="score-label">时效性 /1</span>
-          <div class="score-row">
-            ${bar(bd.recency||0,1,'#fbbc04')}
-            <span class="score-val">${bd.recency||0}</span>
-          </div>
+        <div class="score-row-item">
+          <span class="score-label">时效性</span>
+          ${bar(bd.recency||0,1,'#f59e0b')}
+          <span class="score-val">${bd.recency||0}/1</span>
         </div>
-        <div class="score-item total">
+        <div class="score-total">
           <span class="total-label">综合评分</span>
-          <span class="total-val">${p.score} <span style="font-size:12px;color:#aaa;font-weight:400">/ 7</span></span>
+          <span class="total-val">${p.score} <span>/ 7</span></span>
         </div>
       </div>
     </details>
@@ -235,43 +269,43 @@ function renderCard(p){
     <div class="prompt-box">
       <div class="prompt-header">
         <span class="prompt-label">西高地生图提示词</span>
-        <button class="btn" style="padding:3px 10px;font-size:11px"
-          onclick="copyText('${promptEsc}',this)">复制</button>
+        <button class="btn-copy" onclick="copyText('${promptEsc}',this)">复制</button>
       </div>
       <div class="prompt-text">${promptDisplay}</div>
     </div>
-
-    <div class="row-actions">
-      <button class="btn btn-adopt${adopted?' active':''}"
-        onclick="toggleAdopt('${p.url.replace(/'/g,"\\'")}',this,this.closest('.card'))">
-        ${adopted?'✓ 已采用':'标记采用'}
-      </button>
-    </div>
   </div>
+
+  <div class="card-footer">
+    <button class="btn-adopt${adopted?' active':''}"
+      onclick="toggleAdopt('${p.url.replace(/'/g,"\\'")}',this,this.closest('.card'))">
+      ${adopted?'✓ 已采用':'标记采用'}
+    </button>
+  </div>
+</div>
 </div>`;
 }
 
 async function loadDate(date){
-  const list=document.getElementById('list');
-  list.innerHTML='<div class="loading">加载中...</div>';
+  const grid=document.getElementById('grid');
+  grid.innerHTML='<div class="loading">加载中...</div>';
   try{
     const data=await fetch(`mvp/data/top10_${date}.json`).then(r=>{
       if(!r.ok) throw new Error(r.status);
       return r.json();
     });
     const posts=data.posts||[];
-    if(!posts.length){list.innerHTML='<div class="empty">该日期暂无数据</div>';return;}
-    list.innerHTML=posts.map(renderCard).join('');
+    if(!posts.length){grid.innerHTML='<div class="empty">该日期暂无数据</div>';return;}
+    grid.innerHTML=posts.map(renderCard).join('');
     document.getElementById('metaInfo').textContent=
       `${date} · ${data.total_candidates||0} 条候选 · ${data.scraped_at||''}`;
   }catch(e){
-    list.innerHTML=`<div class="empty">加载失败：${e.message}</div>`;
+    grid.innerHTML=`<div class="empty">加载失败：${e.message}</div>`;
   }
 }
 
 async function init(){
   const sel=document.getElementById('dateSelect');
-  const list=document.getElementById('list');
+  const grid=document.getElementById('grid');
   try{
     const idx=await fetch('mvp/data/index.json').then(r=>{
       if(!r.ok) throw new Error('找不到 index.json');
@@ -279,14 +313,14 @@ async function init(){
     });
     const dates=idx.dates||[];
     if(!dates.length){
-      list.innerHTML='<div class="empty">暂无数据，请先运行抓取脚本</div>';
+      grid.innerHTML='<div class="empty">暂无数据，请先运行抓取脚本</div>';
       sel.innerHTML='<option>暂无数据</option>';
       return;
     }
     sel.innerHTML=dates.map(d=>`<option value="${d}">${d}</option>`).join('');
     await loadDate(dates[0]);
   }catch(e){
-    list.innerHTML=`<div class="empty">${e.message}</div>`;
+    grid.innerHTML=`<div class="empty">${e.message}</div>`;
     sel.innerHTML='<option>—</option>';
   }
 }
