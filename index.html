@@ -26,15 +26,16 @@ body{
   background-repeat:no-repeat;background-position:right 10px center;
 }
 
-/* ── 网格 ── */
+/* ── 瀑布流网格 ── */
 .grid{
   max-width:1160px;margin:0 auto;
   display:grid;
   grid-template-columns:repeat(3,1fr);
-  gap:14px;
-  align-items:start;
+  grid-auto-rows:1px;
+  column-gap:14px;
+  row-gap:0;
 }
-.card-wrap{}
+.card-wrap{align-self:start}
 .empty{max-width:1160px;margin:80px auto;text-align:center;color:#bbb;font-size:14px}
 .loading{max-width:1160px;margin:80px auto;text-align:center;color:#bbb;font-size:13px}
 
@@ -149,6 +150,7 @@ details[open] summary::before{content:'▾  '}
 /* ── 响应式 ── */
 @media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){.grid{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
@@ -314,6 +316,8 @@ async function loadDate(date){
     grid.innerHTML=posts.map(renderCard).join('');
     document.getElementById('metaInfo').textContent=
       `${date} · ${data.total_candidates||0} 条候选 · ${data.scraped_at||''}`;
+    // 等图片/字体渲染完再计算高度
+    setTimeout(applyMasonry, 100);
   }catch(e){
     grid.innerHTML=`<div class="empty">加载失败：${e.message}</div>`;
   }
@@ -341,7 +345,21 @@ async function init(){
   }
 }
 
+function applyMasonry(){
+  const grid=document.getElementById('grid');
+  if(!grid) return;
+  // reset first
+  grid.querySelectorAll('.card-wrap').forEach(w=>w.style.gridRowEnd='');
+  requestAnimationFrame(()=>{
+    grid.querySelectorAll('.card-wrap').forEach(w=>{
+      const h=w.querySelector('.card')?.offsetHeight||0;
+      w.style.gridRowEnd=`span ${h+14}`;
+    });
+  });
+}
+
 init();
+window.addEventListener('resize',applyMasonry);
 </script>
 </body>
 </html>
