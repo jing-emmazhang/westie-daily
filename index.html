@@ -3,117 +3,108 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>🐾 西高地每日热点</title>
+<title>西高地每日热点</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Helvetica Neue',sans-serif;
-     background:#f5f4f0;min-height:100vh;padding:24px 16px;color:#1a1a1a}
+     background:#f0f2f5;min-height:100vh;padding:24px 16px;color:#111}
 
 /* ── 顶栏 ── */
-.header{max-width:1100px;margin:0 auto 24px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.header h1{font-size:20px;font-weight:700}
-.meta{font-size:12px;color:#999;margin-left:auto}
-.date-select{padding:6px 12px;border:1.5px solid #e0ddd6;border-radius:20px;
-             font-size:13px;background:#fff;cursor:pointer;outline:none;
+.header{max-width:900px;margin:0 auto 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.header h1{font-size:17px;font-weight:700;color:#111}
+.meta{font-size:12px;color:#aaa;margin-left:auto}
+.date-select{padding:5px 28px 5px 12px;border:1.5px solid #dde1e8;border-radius:8px;
+             font-size:13px;background:#fff;cursor:pointer;outline:none;color:#333;
              appearance:none;-webkit-appearance:none;
-             background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23999' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
-             background-repeat:no-repeat;background-position:right 10px center;
-             padding-right:28px}
+             background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23999' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+             background-repeat:no-repeat;background-position:right 10px center}
 
-/* ── 网格 ── */
-.grid{max-width:1100px;margin:0 auto;
-      display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
-.empty{max-width:1100px;margin:80px auto;text-align:center;color:#bbb;font-size:15px}
-.loading{max-width:1100px;margin:80px auto;text-align:center;color:#bbb;font-size:14px}
+/* ── 列表 ── */
+.list{max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:10px}
+.empty{max-width:900px;margin:80px auto;text-align:center;color:#bbb;font-size:14px}
+.loading{max-width:900px;margin:80px auto;text-align:center;color:#bbb;font-size:13px}
 
 /* ── 卡片 ── */
-.card{background:#fff;border-radius:14px;padding:0;
-      box-shadow:0 1px 4px rgba(0,0,0,.08);
-      display:flex;flex-direction:column;position:relative;overflow:hidden;
+.card{background:#fff;border-radius:12px;padding:18px 20px;
+      border:1px solid #e8eaed;
+      display:flex;gap:16px;align-items:flex-start;
       transition:box-shadow .15s}
-.card:hover{box-shadow:0 4px 16px rgba(0,0,0,.12)}
-.card.adopted{opacity:.65}
-.card.adopted::after{content:'✅ 已采用';position:absolute;top:10px;right:10px;
-  background:#10b981;color:#fff;font-size:11px;font-weight:700;
-  padding:4px 10px;border-radius:20px;z-index:10}
+.card:hover{box-shadow:0 2px 12px rgba(0,0,0,.07)}
+.card.adopted{opacity:.55}
 
-/* ── 图片区 ── */
-.img-wrap{position:relative;width:100%;aspect-ratio:1;background:#f0ede8;overflow:hidden}
-.img-wrap img{width:100%;height:100%;object-fit:cover;display:block}
-.img-placeholder{width:100%;height:100%;display:flex;align-items:center;
-  justify-content:center;font-size:40px;background:#f0ede8}
-.copy-img-btn{position:absolute;bottom:10px;right:10px;
-  background:rgba(0,0,0,.55);color:#fff;border:none;border-radius:20px;
-  font-size:11px;padding:5px 10px;cursor:pointer;backdrop-filter:blur(4px);
-  transition:background .15s;display:none}
-.img-wrap:hover .copy-img-btn{display:block}
-.copy-img-btn:hover{background:rgba(0,0,0,.75)}
+/* ── 排名数字 ── */
+.rank-col{flex-shrink:0;width:36px;display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:2px}
+.rank-num{width:30px;height:30px;border-radius:50%;
+  font-size:13px;font-weight:700;
+  display:flex;align-items:center;justify-content:center}
+.rank-num.r1{background:#1a6ef5;color:#fff}
+.rank-num.r2{background:#e8f0fe;color:#1a6ef5}
+.rank-num.r3{background:#e8f0fe;color:#1a6ef5}
+.rank-num.rn{background:#f0f2f5;color:#888}
+.adopted-badge{font-size:10px;color:#1a6ef5;font-weight:600;text-align:center;line-height:1.2}
 
-/* ── 카드 본문 ── */
-.card-body{padding:16px;display:flex;flex-direction:column;gap:10px;flex:1}
+/* ── 内容列 ── */
+.content{flex:1;display:flex;flex-direction:column;gap:10px;min-width:0}
 
-/* ── 排名 + 来源行 ── */
-.row-top{display:flex;align-items:center;gap:8px}
-.rank-badge{width:32px;height:32px;background:#f4845f;border-radius:50%;
-  color:#fff;font-size:15px;font-weight:700;
-  display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.rank-badge.r1{background:#f59e0b}
-.rank-badge.r2{background:#94a3b8}
-.rank-badge.r3{background:#cd7c3f}
-.source-badge{font-size:11px;padding:3px 8px;border-radius:10px;font-weight:600}
-.view-link{margin-left:auto;font-size:12px;color:#f4845f;text-decoration:none;font-weight:500}
+/* ── 顶部行 ── */
+.row-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.source-badge{font-size:11px;padding:2px 8px;border-radius:6px;font-weight:600;
+              background:#e8f0fe;color:#1a6ef5}
+.source-badge.account{background:#edf7ee;color:#1a8a35}
+.view-link{margin-left:auto;font-size:12px;color:#1a6ef5;text-decoration:none;font-weight:500;white-space:nowrap}
 .view-link:hover{text-decoration:underline}
 
 /* ── 文字 ── */
-.highlight{font-size:14px;font-weight:600;line-height:1.5}
-.desc{font-size:12px;color:#666;line-height:1.6}
+.highlight{font-size:14px;font-weight:600;line-height:1.5;color:#111}
+.desc{font-size:12px;color:#777;line-height:1.6}
 
 /* ── 数据行 ── */
-.stats{display:flex;gap:14px;font-size:12px;color:#888;align-items:center}
-.score{margin-left:auto;font-weight:700;color:#f4845f;font-size:15px}
+.stats{display:flex;gap:16px;font-size:12px;color:#999;align-items:center}
 
 /* ── 评分明细 ── */
-details{font-size:12px}
-summary{color:#bbb;cursor:pointer;user-select:none;list-style:none}
+details{font-size:12px;border-top:1px solid #f0f2f5;padding-top:10px}
+summary{color:#aaa;cursor:pointer;user-select:none;list-style:none;font-size:12px}
 summary::-webkit-details-marker{display:none}
 summary::before{content:'▸ ';font-size:10px}
 details[open] summary::before{content:'▾ '}
-.score-bars{margin-top:8px;display:flex;flex-direction:column;gap:6px}
-.bar-row{display:flex;align-items:center;gap:8px;font-size:11px;color:#888}
-.bar-label{width:52px;flex-shrink:0}
-.bar-track{flex:1;background:#f0f0f0;border-radius:4px;height:6px;overflow:hidden}
-.bar-fill{height:6px;border-radius:4px;transition:width .3s}
-.bar-val{width:28px;text-align:right;flex-shrink:0}
+.score-grid{margin-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:8px 24px}
+.score-item{display:flex;flex-direction:column;gap:4px}
+.score-item.total{grid-column:1/-1;border-top:1px solid #f0f2f5;padding-top:8px;
+  flex-direction:row;justify-content:space-between;align-items:center}
+.score-label{font-size:11px;color:#aaa}
+.score-row{display:flex;align-items:center;gap:8px}
+.bar-track{flex:1;background:#f0f2f5;border-radius:3px;height:4px;overflow:hidden}
+.bar-fill{height:4px;border-radius:3px}
+.score-val{font-size:11px;color:#888;width:32px;text-align:right;flex-shrink:0}
+.total-label{font-size:12px;color:#666;font-weight:500}
+.total-val{font-size:16px;font-weight:700;color:#1a6ef5}
 
 /* ── 提示词区 ── */
-.prompt-box{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px}
+.prompt-box{background:#f7f9ff;border:1px solid #dde6ff;border-radius:8px;padding:12px}
 .prompt-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
-.prompt-label{font-size:11px;color:#f4845f;font-weight:600}
+.prompt-label{font-size:11px;color:#1a6ef5;font-weight:600}
 .prompt-text{font-size:12px;color:#444;line-height:1.6;word-break:break-word}
 
-/* ── 底部按钮行 ── */
-.row-actions{display:flex;gap:8px;margin-top:2px}
-.btn{border:none;border-radius:20px;font-size:12px;font-weight:600;
-     padding:7px 14px;cursor:pointer;transition:all .15s;flex:1;text-align:center}
-.btn-copy{background:#f4845f20;color:#f4845f}
-.btn-copy:hover{background:#f4845f30}
-.btn-adopt{background:#10b98115;color:#10b981}
-.btn-adopt:hover{background:#10b98125}
-.btn-adopt.active{background:#10b981;color:#fff}
-.btn.flash{background:#10b981 !important;color:#fff !important}
+/* ── 按钮行 ── */
+.row-actions{display:flex;gap:8px}
+.btn{border:1px solid #e8eaed;border-radius:7px;font-size:12px;font-weight:500;
+     padding:6px 14px;cursor:pointer;background:#fff;color:#555;transition:all .15s}
+.btn:hover{background:#f7f9ff;border-color:#c5d5ff;color:#1a6ef5}
+.btn-adopt.active{background:#1a6ef5;color:#fff;border-color:#1a6ef5}
+.btn.flash{background:#1a6ef5 !important;color:#fff !important;border-color:#1a6ef5 !important}
 
 /* ── 响应式 ── */
 @media(max-width:600px){
-  .grid{grid-template-columns:1fr}
-  .header{gap:8px}
-  .meta{margin-left:0;width:100%}
+  .card{flex-direction:column;gap:12px}
+  .rank-col{flex-direction:row;width:100%;gap:10px}
+  .score-grid{grid-template-columns:1fr}
+  .score-item.total{grid-column:unset}
 }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <span style="font-size:28px">🐾</span>
   <h1>西高地每日热点</h1>
   <select class="date-select" id="dateSelect" onchange="loadDate(this.value)">
     <option value="">加载中...</option>
@@ -121,64 +112,49 @@ details[open] summary::before{content:'▾ '}
   <span class="meta" id="metaInfo"></span>
 </div>
 
-<div id="grid" class="grid">
+<div id="list" class="list">
   <div class="loading">加载数据中...</div>
 </div>
 
 <script>
-// ── 工具函数 ──────────────────────────────────────────────
-
 function fmtLikes(n){
   if(n>=10000) return (n/10000).toFixed(1)+'万';
   if(n>=1000)  return (n/1000).toFixed(1)+'k';
   return String(n);
 }
 
-async function flashBtn(btn, text){
-  const orig = btn.textContent;
-  btn.textContent = text;
+async function flashBtn(btn,text){
+  const orig=btn.textContent;
+  btn.textContent=text;
   btn.classList.add('flash');
   await new Promise(r=>setTimeout(r,1500));
-  btn.textContent = orig;
+  btn.textContent=orig;
   btn.classList.remove('flash');
 }
 
-async function copyText(text, btn){
+async function copyText(text,btn){
   try{
     await navigator.clipboard.writeText(text);
-    flashBtn(btn,'✅ 已复制');
+    flashBtn(btn,'✓ 已复制');
   }catch(e){
-    // fallback: select text
-    prompt('复制以下提示词：', text);
+    prompt('复制提示词：',text);
   }
 }
 
-async function copyImage(url, btn){
-  if(!url){ alert('暂无图片 URL'); return; }
-  try{
-    const res  = await fetch(url);
-    const blob = await res.blob();
-    await navigator.clipboard.write([new ClipboardItem({[blob.type]: blob})]);
-    flashBtn(btn,'✅ 已复制图片');
-  }catch(e){
-    // CORS fallback: open in new tab
-    window.open(url,'_blank');
-    flashBtn(btn,'↗ 已在新标签打开');
-  }
-}
-
-function toggleAdopt(url, btn, card){
-  const key = 'adopted__'+encodeURIComponent(url);
+function toggleAdopt(url,btn,card){
+  const key='adopted__'+encodeURIComponent(url);
   if(localStorage.getItem(key)){
     localStorage.removeItem(key);
     card.classList.remove('adopted');
     btn.textContent='标记采用';
     btn.classList.remove('active');
+    card.querySelector('.adopted-badge').textContent='';
   }else{
-    localStorage.setItem(key, Date.now());
+    localStorage.setItem(key,Date.now());
     card.classList.add('adopted');
-    btn.textContent='✅ 已采用';
+    btn.textContent='✓ 已采用';
     btn.classList.add('active');
+    card.querySelector('.adopted-badge').textContent='已采用';
   }
 }
 
@@ -186,61 +162,34 @@ function isAdopted(url){
   return !!localStorage.getItem('adopted__'+encodeURIComponent(url));
 }
 
-// ── 评分条 ──────────────────────────────────────────────
-
-function scoreBar(label, val, maxVal, color){
-  const pct = Math.min(Math.round(val/maxVal*100),100);
-  return `<div class="bar-row">
-    <span class="bar-label">${label}</span>
-    <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${color}"></div></div>
-    <span class="bar-val">${val}/${maxVal}</span>
-  </div>`;
+function bar(val,max,color){
+  const pct=Math.min(Math.round(val/max*100),100);
+  return `<div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${color}"></div></div>`;
 }
 
-// ── 来源标签 ──────────────────────────────────────────────
-
-const SOURCE_STYLE = {
-  explore: {label:'发现页', bg:'#6366f120', color:'#6366f1'},
-  account: {label:'账号',   bg:'#0ea5e920', color:'#0ea5e9'},
-  keyword: {label:'关键词', bg:'#f4845f20', color:'#f4845f'},
+const SOURCE_STYLE={
+  explore:{label:'发现页',cls:''},
+  account:{label:'账号',cls:'account'},
+  keyword:{label:'关键词',cls:''},
 };
 
-// ── 渲染单张卡片 ──────────────────────────────────────────
-
 function renderCard(p){
-  const adopted = isAdopted(p.url);
-  const src     = SOURCE_STYLE[p.source_type] || SOURCE_STYLE.keyword;
-  const bd      = p.score_breakdown || {};
-  const rankCls = p.rank<=3 ? `r${p.rank}` : '';
-  const thumb   = p.thumbnail || '';
-
-  const imgSection = thumb
-    ? `<div class="img-wrap">
-         <img src="${thumb}" alt="" loading="lazy" onerror="this.closest('.img-wrap').innerHTML='<div class=img-placeholder>🐕</div>'">
-         <button class="copy-img-btn" onclick="copyImage('${thumb.replace(/'/g,"\\'")}',this)">复制图片</button>
-       </div>`
-    : `<div class="img-wrap"><div class="img-placeholder">🐕</div></div>`;
-
-  const scoreDetails = `
-    <details>
-      <summary>评分明细</summary>
-      <div class="score-bars">
-        ${scoreBar('绝对热度', bd.absolute_likes||0, 4, '#f4845f')}
-        ${scoreBar('来源加成', bd.source_bonus||0,   2, '#6366f1')}
-        ${scoreBar('时效性',   bd.recency||0,         1, '#f59e0b')}
-      </div>
-    </details>`;
-
-  const promptEsc = (p.westie_prompt||'').replace(/'/g,"\\'").replace(/"/g,'&quot;');
-  const promptDisplay = (p.westie_prompt||'').replace(/</g,'&lt;');
+  const adopted=isAdopted(p.url);
+  const src=SOURCE_STYLE[p.source_type]||SOURCE_STYLE.keyword;
+  const bd=p.score_breakdown||{};
+  const rankCls=p.rank===1?'r1':p.rank<=3?'r2':'rn';
+  const promptEsc=(p.westie_prompt||'').replace(/'/g,"\\'");
+  const promptDisplay=(p.westie_prompt||'').replace(/</g,'&lt;');
 
   return `
-<div class="card${adopted?' adopted':''}" id="card-${encodeURIComponent(p.url)}">
-  ${imgSection}
-  <div class="card-body">
+<div class="card${adopted?' adopted':''}" id="card-${p.rank}">
+  <div class="rank-col">
+    <div class="rank-num ${rankCls}">${p.rank}</div>
+    <div class="adopted-badge">${adopted?'已采用':''}</div>
+  </div>
+  <div class="content">
     <div class="row-top">
-      <div class="rank-badge ${rankCls}">${p.rank}</div>
-      <span class="source-badge" style="background:${src.bg};color:${src.color}">${src.label} · ${p.source_name||''}</span>
+      <span class="source-badge ${src.cls}">${src.label} · ${p.source_name||''}</span>
       <a class="view-link" href="${p.url}" target="_blank" rel="noopener">查看原帖 →</a>
     </div>
 
@@ -249,15 +198,44 @@ function renderCard(p){
 
     <div class="stats">
       <span>❤️ ${fmtLikes(p.post_likes||0)}</span>
-      <span style="margin-left:auto;font-weight:700;color:#f4845f;font-size:14px">⭐ ${p.score}</span>
+      <span>${Math.round(p.age_days||0)} 天前</span>
     </div>
 
-    ${scoreDetails}
+    <details>
+      <summary>评分明细</summary>
+      <div class="score-grid">
+        <div class="score-item">
+          <span class="score-label">绝对热度 /4</span>
+          <div class="score-row">
+            ${bar(bd.absolute_likes||0,4,'#1a6ef5')}
+            <span class="score-val">${bd.absolute_likes||0}</span>
+          </div>
+        </div>
+        <div class="score-item">
+          <span class="score-label">来源加成 /2</span>
+          <div class="score-row">
+            ${bar(bd.source_bonus||0,2,'#34a853')}
+            <span class="score-val">${bd.source_bonus||0}</span>
+          </div>
+        </div>
+        <div class="score-item">
+          <span class="score-label">时效性 /1</span>
+          <div class="score-row">
+            ${bar(bd.recency||0,1,'#fbbc04')}
+            <span class="score-val">${bd.recency||0}</span>
+          </div>
+        </div>
+        <div class="score-item total">
+          <span class="total-label">综合评分</span>
+          <span class="total-val">${p.score} <span style="font-size:12px;color:#aaa;font-weight:400">/ 7</span></span>
+        </div>
+      </div>
+    </details>
 
     <div class="prompt-box">
       <div class="prompt-header">
-        <span class="prompt-label">🐾 西高地版生图提示词</span>
-        <button class="btn btn-copy" style="flex:0;padding:4px 10px;font-size:11px"
+        <span class="prompt-label">西高地生图提示词</span>
+        <button class="btn" style="padding:3px 10px;font-size:11px"
           onclick="copyText('${promptEsc}',this)">复制</button>
       </div>
       <div class="prompt-text">${promptDisplay}</div>
@@ -266,54 +244,49 @@ function renderCard(p){
     <div class="row-actions">
       <button class="btn btn-adopt${adopted?' active':''}"
         onclick="toggleAdopt('${p.url.replace(/'/g,"\\'")}',this,this.closest('.card'))">
-        ${adopted?'✅ 已采用':'标记采用'}
+        ${adopted?'✓ 已采用':'标记采用'}
       </button>
     </div>
   </div>
 </div>`;
 }
 
-// ── 数据加载 ──────────────────────────────────────────────
-
 async function loadDate(date){
-  const grid = document.getElementById('grid');
-  grid.innerHTML = '<div class="loading">加载中...</div>';
+  const list=document.getElementById('list');
+  list.innerHTML='<div class="loading">加载中...</div>';
   try{
-    const data = await fetch(`mvp/data/top10_${date}.json`).then(r=>{
+    const data=await fetch(`mvp/data/top10_${date}.json`).then(r=>{
       if(!r.ok) throw new Error(r.status);
       return r.json();
     });
-    const posts = data.posts||[];
-    if(!posts.length){
-      grid.innerHTML='<div class="empty">该日期暂无数据</div>';
-      return;
-    }
-    grid.innerHTML = posts.map(renderCard).join('');
-    document.getElementById('metaInfo').textContent =
-      `${date} · 共 ${data.total_candidates||0} 条候选 · 抓取于 ${data.scraped_at||'—'}`;
+    const posts=data.posts||[];
+    if(!posts.length){list.innerHTML='<div class="empty">该日期暂无数据</div>';return;}
+    list.innerHTML=posts.map(renderCard).join('');
+    document.getElementById('metaInfo').textContent=
+      `${date} · ${data.total_candidates||0} 条候选 · ${data.scraped_at||''}`;
   }catch(e){
-    grid.innerHTML=`<div class="empty">加载失败：${e.message}</div>`;
+    list.innerHTML=`<div class="empty">加载失败：${e.message}</div>`;
   }
 }
 
 async function init(){
-  const sel  = document.getElementById('dateSelect');
-  const grid = document.getElementById('grid');
+  const sel=document.getElementById('dateSelect');
+  const list=document.getElementById('list');
   try{
-    const idx = await fetch('mvp/data/index.json').then(r=>{
-      if(!r.ok) throw new Error('找不到 data/index.json，请先运行抓取脚本');
+    const idx=await fetch('mvp/data/index.json').then(r=>{
+      if(!r.ok) throw new Error('找不到 index.json');
       return r.json();
     });
-    const dates = idx.dates||[];
+    const dates=idx.dates||[];
     if(!dates.length){
-      grid.innerHTML='<div class="empty">暂无数据，请先运行抓取脚本~</div>';
+      list.innerHTML='<div class="empty">暂无数据，请先运行抓取脚本</div>';
       sel.innerHTML='<option>暂无数据</option>';
       return;
     }
-    sel.innerHTML = dates.map(d=>`<option value="${d}">${d}</option>`).join('');
+    sel.innerHTML=dates.map(d=>`<option value="${d}">${d}</option>`).join('');
     await loadDate(dates[0]);
   }catch(e){
-    grid.innerHTML=`<div class="empty">${e.message}</div>`;
+    list.innerHTML=`<div class="empty">${e.message}</div>`;
     sel.innerHTML='<option>—</option>';
   }
 }
