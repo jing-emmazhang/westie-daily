@@ -1,193 +1,193 @@
 {
   "date": "2026-07-01",
-  "scraped_at": "2026-07-01 16:58:14",
-  "total_candidates": 71,
+  "scraped_at": "2026-07-01 17:26:32",
+  "total_candidates": 29,
   "posts": [
-    {
-      "url": "https://www.instagram.com/p/DaMuB9YSQOw/",
-      "source_type": "keyword",
-      "source_name": "#dog",
-      "post_likes": 57666,
-      "age_days": 1.13,
-      "thumbnail": "",
-      "description": "",
-      "description_zh": "",
-      "highlight": "",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by:  Natural lighting, photorealistic, square composition, no text, no watermark.",
-      "score": 4.81,
-      "score_breakdown": {
-        "absolute_likes": 3.81,
-        "source_bonus": 0.0,
-        "recency": 1.0
-      },
-      "rank": 1
-    },
-    {
-      "url": "https://www.instagram.com/p/DaHepUOj-g5/",
-      "source_type": "keyword",
-      "source_name": "#dogoftheday",
-      "post_likes": 35097,
-      "age_days": 3.17,
-      "thumbnail": "",
-      "description": "",
-      "description_zh": "",
-      "highlight": "",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by:  Natural lighting, photorealistic, square composition, no text, no watermark.",
-      "score": 4.64,
-      "score_breakdown": {
-        "absolute_likes": 3.64,
-        "source_bonus": 0.0,
-        "recency": 1.0
-      },
-      "rank": 2
-    },
     {
       "url": "https://www.instagram.com/jordhammond/p/DaNmspqD_Y-/",
       "source_type": "account",
       "source_name": "@jordhammond",
-      "post_likes": 1873,
-      "age_days": 0.79,
+      "post_likes": 1894,
+      "age_days": 0.8,
       "thumbnail": "",
-      "description": "",
-      "description_zh": "",
-      "highlight": "",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by:  Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "description": "Jordan Hammond landscape, freshly posted",
+      "description_zh": "Jordan Hammond 风光摄影，刚发布不久",
+      "highlight": "最新风光大片，适合西高地背景",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 最新风光大片，适合西高地背景 Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 4.62,
       "score_breakdown": {
         "absolute_likes": 2.62,
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 3
-    },
-    {
-      "url": "https://www.instagram.com/p/DaC8dgqgZxz/",
-      "source_type": "keyword",
-      "source_name": "#puppy",
-      "post_likes": 16922,
-      "age_days": 4.93,
-      "thumbnail": "",
-      "description": "",
-      "description_zh": "",
-      "highlight": "",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by:  Natural lighting, photorealistic, square composition, no text, no watermark.",
-      "score": 4.38,
-      "score_breakdown": {
-        "absolute_likes": 3.38,
-        "source_bonus": 0.0,
-        "recency": 1.0
-      },
-      "rank": 4
-    },
-    {
-      "url": "https://www.instagram.com/p/DaDJ629k21_/",
-      "source_type": "keyword",
-      "source_name": "#dogsofinstagram",
-      "post_likes": 10993,
-      "age_days": 4.84,
-      "thumbnail": "",
-      "description": "",
-      "description_zh": "",
-      "highlight": "",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by:  Natural lighting, photorealistic, square composition, no text, no watermark.",
-      "score": 4.23,
-      "score_breakdown": {
-        "absolute_likes": 3.23,
-        "source_bonus": 0.0,
-        "recency": 1.0
-      },
-      "rank": 5
+      "rank": 1
     },
     {
       "url": "https://www.instagram.com/tom_juenemann/p/DV5nDpyDCzp/",
       "source_type": "account",
       "source_name": "@tom_juenemann",
       "post_likes": 8078,
-      "age_days": 107.98,
+      "age_days": 108.0,
       "thumbnail": "",
-      "description": "",
-      "description_zh": "",
-      "highlight": "",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by:  Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "description": "Tom Juenemann nature & travel",
+      "description_zh": "Tom Juenemann 自然旅行摄影",
+      "highlight": "自然旅行大片，8k赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 自然旅行大片，8k赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 4.13,
       "score_breakdown": {
         "absolute_likes": 3.13,
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 6
-    },
-    {
-      "url": "https://www.instagram.com/p/DXZwoI4ic_g/",
-      "source_type": "keyword",
-      "source_name": "#dog",
-      "post_likes": 426880,
-      "age_days": 70.63,
-      "thumbnail": "",
-      "description": "",
-      "description_zh": "",
-      "highlight": "",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by:  Natural lighting, photorealistic, square composition, no text, no watermark.",
-      "score": 4.0,
-      "score_breakdown": {
-        "absolute_likes": 4.0,
-        "source_bonus": 0.0,
-        "recency": 0.0
-      },
-      "rank": 7
+      "rank": 2
     },
     {
       "url": "https://www.instagram.com/p/DZ6vgedDo__/",
       "source_type": "keyword",
-      "source_name": "#dogsofinstagram",
+      "source_name": "#puppy",
       "post_likes": 149757,
-      "age_days": 22.44,
+      "age_days": 22.5,
       "thumbnail": "",
-      "description": "",
-      "description_zh": "",
-      "highlight": "",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by:  Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "description": "Mega viral puppy content",
+      "description_zh": "来自 #puppy 的超级爆款",
+      "highlight": "爆款幼犬帖，14.9万赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 爆款幼犬帖，14.9万赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 4.0,
       "score_breakdown": {
         "absolute_likes": 4.0,
         "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 8
+      "rank": 3
     },
     {
       "url": "https://www.instagram.com/jordhammond/p/DXrVfHrDwqX/",
       "source_type": "account",
       "source_name": "@jordhammond",
-      "post_likes": 3953,
-      "age_days": 63.81,
+      "post_likes": 3956,
+      "age_days": 63.8,
       "thumbnail": "",
-      "description": "",
-      "description_zh": "",
-      "highlight": "",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by:  Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "description": "Jordan Hammond scenic photo",
+      "description_zh": "Jordan Hammond 风光照",
+      "highlight": "精美风光，3.9k赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 精美风光，3.9k赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 3.88,
       "score_breakdown": {
         "absolute_likes": 2.88,
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 9
+      "rank": 4
     },
     {
       "url": "https://www.instagram.com/jordhammond/p/DYR2DeKD9tw/",
       "source_type": "account",
       "source_name": "@jordhammond",
-      "post_likes": 3879,
-      "age_days": 48.85,
+      "post_likes": 3881,
+      "age_days": 48.9,
       "thumbnail": "",
-      "description": "",
-      "description_zh": "",
-      "highlight": "",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by:  Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "description": "Jordan Hammond nature photography",
+      "description_zh": "Jordan Hammond 自然摄影",
+      "highlight": "自然风光，3.8k赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 自然风光，3.8k赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 3.87,
       "score_breakdown": {
         "absolute_likes": 2.87,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 5
+    },
+    {
+      "url": "https://www.instagram.com/p/DYMtvy3EoMA/",
+      "source_type": "keyword",
+      "source_name": "#puppy",
+      "post_likes": 66159,
+      "age_days": 50.9,
+      "thumbnail": "",
+      "description": "Cute puppy viral post",
+      "description_zh": "来自 #puppy 的爆款帖",
+      "highlight": "超萌幼犬，6.6万赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 超萌幼犬，6.6万赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.86,
+      "score_breakdown": {
+        "absolute_likes": 3.86,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 6
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/p/DZNJEHlj_I_/",
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "post_likes": 2559,
+      "age_days": 25.8,
+      "thumbnail": "",
+      "description": "Jordan Hammond scenic landscape",
+      "description_zh": "Jordan Hammond 风景摄影",
+      "highlight": "风光摄影大片，2.5k赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 风光摄影大片，2.5k赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.73,
+      "score_breakdown": {
+        "absolute_likes": 2.73,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 7
+    },
+    {
+      "url": "https://www.instagram.com/p/DXCReowj9sJ/",
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "post_likes": 38471,
+      "age_days": 79.8,
+      "thumbnail": "",
+      "description": "Viral dog post",
+      "description_zh": "来自话题 #dog 的爆款帖",
+      "highlight": "超火狗狗帖，3.8万赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 超火狗狗帖，3.8万赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.67,
+      "score_breakdown": {
+        "absolute_likes": 3.67,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 8
+    },
+    {
+      "url": "https://www.instagram.com/p/CVPnYqpK3Qy/",
+      "source_type": "keyword",
+      "source_name": "#fluffydogs",
+      "post_likes": 25123,
+      "age_days": 1715.0,
+      "thumbnail": "",
+      "description": "Viral fluffy dog",
+      "description_zh": "来自 #fluffydogs 的经典爆款",
+      "highlight": "经典爆款毛绒狗，2.5万赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 经典爆款毛绒狗，2.5万赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.52,
+      "score_breakdown": {
+        "absolute_likes": 3.52,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 9
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/p/DX4OkVzj-nV/",
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "post_likes": 1189,
+      "age_days": 58.8,
+      "thumbnail": "",
+      "description": "Jordan Hammond landscape photo",
+      "description_zh": "Jordan Hammond 风景照",
+      "highlight": "风景摄影",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 风景摄影 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.46,
+      "score_breakdown": {
+        "absolute_likes": 2.46,
         "source_bonus": 1.0,
         "recency": 0.0
       },
