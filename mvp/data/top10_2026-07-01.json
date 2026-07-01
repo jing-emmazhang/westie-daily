@@ -12,15 +12,17 @@
       "thumbnail": "",
       "description": "Jordan Hammond landscape, freshly posted",
       "description_zh": "Jordan Hammond 风光摄影，刚发布不久",
-      "highlight": "最新风光大片，适合西高地背景",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 最新风光大片，适合西高地背景 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "highlight": "巴厘岛摄影工作坊 · 越南梯田风光",
+      "westie_prompt": "A West Highland White Terrier exploring lush green Bali rice terraces at golden hour, morning mist over tropical mountains, cinematic travel photography, photorealistic, square composition, no text, no watermark.",
       "score": 4.62,
       "score_breakdown": {
         "absolute_likes": 2.62,
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 1
+      "rank": 1,
+      "caption_en": "June has been a busy one! Having recently wrapped up a 10-day workshop in Vietnam, I'm now midway through a 9-day workshop here in Bali. It's always a privilege to share these places with fellow photographers.",
+      "caption_zh": "六月真的好忙！越南十天工作坊刚结束，现在又在巴厘岛进行九天工作坊。能与摄友共同探索这些地方，真是莫大的荣幸。"
     },
     {
       "url": "https://www.instagram.com/tom_juenemann/p/DV5nDpyDCzp/",
@@ -31,15 +33,17 @@
       "thumbnail": "",
       "description": "Tom Juenemann nature & travel",
       "description_zh": "Tom Juenemann 自然旅行摄影",
-      "highlight": "自然旅行大片，8k赞",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 自然旅行大片，8k赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "highlight": "世界旅行摄影 · 极光与异域风光",
+      "westie_prompt": "A West Highland White Terrier standing on a snowy Norwegian hilltop with the Northern Lights glowing above, vast dark arctic landscape, dramatic atmosphere, photorealistic, square composition, no text, no watermark.",
       "score": 4.13,
       "score_breakdown": {
         "absolute_likes": 3.13,
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 2
+      "rank": 2,
+      "caption_en": "Since 2018, my Sony camera has been my passport to the world. I've chased the Northern Lights across Norway, walked through rain-soaked forests in Nicaragua, stood in Saudi Arabia's endless deserts, and explored Europe's most vibrant autumn scenery.",
+      "caption_zh": "自2018年以来，相机不只是装备，更是探索世界的通行证。挪威极光、尼加拉瓜雨林、沙特沙漠、欧洲秋色……每一段旅程都截然不同。"
     },
     {
       "url": "https://www.instagram.com/p/DZ6vgedDo__/",
@@ -50,15 +54,17 @@
       "thumbnail": "",
       "description": "Mega viral puppy content",
       "description_zh": "来自 #puppy 的超级爆款",
-      "highlight": "爆款幼犬帖，14.9万赞",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 爆款幼犬帖，14.9万赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "highlight": "金毛幼犬 · 全球爆款帖 14.9万赞",
+      "westie_prompt": "A West Highland White Terrier with bright eyes and fluffy white coat, close-up portrait, joyful expression, soft natural lighting, clean white background, photorealistic, square composition, no text, no watermark.",
       "score": 4.0,
       "score_breakdown": {
         "absolute_likes": 4.0,
         "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 3
+      "rank": 3,
+      "caption_en": "cutest boy in the world #goldenretriever #dogsofinstagram #puppy",
+      "caption_zh": "世界上最可爱的男孩"
     },
     {
       "url": "https://www.instagram.com/jordhammond/p/DXrVfHrDwqX/",
@@ -69,15 +75,17 @@
       "thumbnail": "",
       "description": "Jordan Hammond scenic photo",
       "description_zh": "Jordan Hammond 风光照",
-      "highlight": "精美风光，3.9k赞",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 精美风光，3.9k赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "highlight": "越南梯田与渔村摄影之旅",
+      "westie_prompt": "A West Highland White Terrier sitting among vibrant green Vietnam rice terraces, misty mountains in the distance, golden afternoon light, travel photography style, photorealistic, square composition, no text, no watermark.",
       "score": 3.88,
       "score_breakdown": {
         "absolute_likes": 2.88,
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 4
+      "rank": 4,
+      "caption_en": "Counting down the days until my first Vietnam workshop of the year. Just had a last minute cancellation — shoot me a message if you're keen for a last minute adventure!",
+      "caption_zh": "倒数越南工作坊的日子！刚有名额取消，有兴趣来一场说走就走的冒险吗？河内街头、北部高山梯田，还有中部渔村……"
     },
     {
       "url": "https://www.instagram.com/jordhammond/p/DYR2DeKD9tw/",
@@ -88,15 +96,17 @@
       "thumbnail": "",
       "description": "Jordan Hammond nature photography",
       "description_zh": "Jordan Hammond 自然摄影",
-      "highlight": "自然风光，3.8k赞",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 自然风光，3.8k赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "highlight": "巴厘岛日常 · 新晋奶爸的家门口风光",
+      "westie_prompt": "A West Highland White Terrier trotting through a sunlit Balinese village alley, tropical foliage, warm afternoon light filtering through palm trees, candid travel moment, photorealistic, square composition, no text, no watermark.",
       "score": 3.87,
       "score_breakdown": {
         "absolute_likes": 2.87,
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 5
+      "rank": 5,
+      "caption_en": "Becoming a father three months ago has left me with a lot less time for big trips, and has forced me to slow down and explore closer to home. Most of these were taken within 10-15 minutes of where I live, during Penny's short windows of sleep.",
+      "caption_zh": "三个月前当了爸爸，大行程少了，反而慢下来探索家附近的风景。这组照片几乎都在住处15分钟内拍的，趁女儿 Penny 午睡的空档。等不及哪天带她一起去拍了！"
     },
     {
       "url": "https://www.instagram.com/p/DYMtvy3EoMA/",
@@ -107,15 +117,17 @@
       "thumbnail": "",
       "description": "Cute puppy viral post",
       "description_zh": "来自 #puppy 的爆款帖",
-      "highlight": "超萌幼犬，6.6万赞",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 超萌幼犬，6.6万赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "highlight": "韩国萌犬波波 · 6.6万赞爆款",
+      "westie_prompt": "A West Highland White Terrier being gently scooped up mid-walk, paws dangling adorably, fluffy white fur ruffled, soft park lighting, playful surprised expression, photorealistic, square composition, no text, no watermark.",
       "score": 3.86,
       "score_breakdown": {
         "absolute_likes": 3.86,
         "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 6
+      "rank": 6,
+      "caption_en": "While walking, the dog ate something strange and I had to carry it quickly — catching little Popo dangling mid-air was just too cute! #puppy",
+      "caption_zh": "散步时小狗捡了奇怪的东西吃，紧急把它抱起来——拍到晃荡的小波波，太可爱了哈哈哈"
     },
     {
       "url": "https://www.instagram.com/jordhammond/p/DZNJEHlj_I_/",
@@ -126,15 +138,17 @@
       "thumbnail": "",
       "description": "Jordan Hammond scenic landscape",
       "description_zh": "Jordan Hammond 风景摄影",
-      "highlight": "风光摄影大片，2.5k赞",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 风光摄影大片，2.5k赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "highlight": "巴厘岛摄影师33岁生日感言 · 火山日落",
+      "westie_prompt": "A West Highland White Terrier silhouetted against a dramatic Bali volcanic sunset, Mount Agung in the background, warm orange and purple sky, travel photography mood, photorealistic, square composition, no text, no watermark.",
       "score": 3.73,
       "score_breakdown": {
         "absolute_likes": 2.73,
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 7
+      "rank": 7,
+      "caption_en": "Another lap around the sun! When I first arrived in Bali, I never imagined I'd still be here nearly a decade later, camera in hand. Feeling extremely grateful. Here's to 33, and to sharing more of this incredible world with my daughter!",
+      "caption_zh": "又绕太阳转了一圈！初到巴厘岛时从没想到会在这里待上近十年，相机不离手记录小岛日常。为33岁干杯，愿能带着女儿继续探索这个精彩的世界！"
     },
     {
       "url": "https://www.instagram.com/p/DXCReowj9sJ/",
@@ -145,15 +159,17 @@
       "thumbnail": "",
       "description": "Viral dog post",
       "description_zh": "来自话题 #dog 的爆款帖",
-      "highlight": "超火狗狗帖，3.8万赞",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 超火狗狗帖，3.8万赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "highlight": "音乐狗狗 Bandly · 搞笑才艺视频",
+      "westie_prompt": "A West Highland White Terrier sitting upright next to a tiny piano, alert and curious expression, ears perked up, soft studio lighting, charming portrait, photorealistic, square composition, no text, no watermark.",
       "score": 3.67,
       "score_breakdown": {
         "absolute_likes": 3.67,
         "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 8
+      "rank": 8,
+      "caption_en": "Bandly's little puppy has really good musical talent! #doglover #funnydog #dog",
+      "caption_zh": "Bandly 的小狗有非常棒的音乐天赋！"
     },
     {
       "url": "https://www.instagram.com/p/CVPnYqpK3Qy/",
@@ -164,15 +180,17 @@
       "thumbnail": "",
       "description": "Viral fluffy dog",
       "description_zh": "来自 #fluffydogs 的经典爆款",
-      "highlight": "经典爆款毛绒狗，2.5万赞",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 经典爆款毛绒狗，2.5万赞 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "highlight": "萨摩耶萌图 · 看了就想抱的蓬松白狗",
+      "westie_prompt": "A West Highland White Terrier extra fluffy and round like a cloud, standing on a snowy field, irresistibly huggable, soft winter light, photorealistic, square composition, no text, no watermark.",
       "score": 3.52,
       "score_breakdown": {
         "absolute_likes": 3.52,
         "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 9
+      "rank": 9,
+      "caption_en": "Drop a heart if you want to hug him! Follow us if you love fluffy dogs @samoyedpage",
+      "caption_zh": "想抱他就扔个爱心！超蓬松的萨摩耶，看一眼就想抱进怀里"
     },
     {
       "url": "https://www.instagram.com/jordhammond/p/DX4OkVzj-nV/",
@@ -183,15 +201,17 @@
       "thumbnail": "",
       "description": "Jordan Hammond landscape photo",
       "description_zh": "Jordan Hammond 风景照",
-      "highlight": "风景摄影",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 风景摄影 Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "highlight": "巴厘岛 Warung 市井生活 · 光影绝佳",
+      "westie_prompt": "A West Highland White Terrier sitting inside a colorful Indonesian Warung food stall, surrounded by vibrant local decor and warm cafe atmosphere, dappled sunlight, photorealistic, square composition, no text, no watermark.",
       "score": 3.46,
       "score_breakdown": {
         "absolute_likes": 2.46,
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 10
+      "rank": 10,
+      "caption_en": "Warungs are a staple in daily life here in Indonesia. When I'm out shooting I'll often duck into one to escape the midday sun for an iced tea. I do wonder how long they'll keep this simple, vibrant feel.",
+      "caption_zh": "Warung 小摊是印尼日常生活的一部分。拍摄途中常躲进去喝杯冰茶避开烈日，或下山后顺路吃点东西……不知道这种简单又鲜活的感觉还能保留多久。"
     }
   ]
 }
