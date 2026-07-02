@@ -1,0 +1,207 @@
+{
+  "date": "2026-07-02",
+  "scraped_at": "2026-07-02 11:08:09",
+  "total_candidates": 39,
+  "posts": [
+    {
+      "url": "https://www.instagram.com/jordhammond/p/DaNmspqD_Y-/",
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "post_likes": 2302,
+      "age_days": 1.5,
+      "description": "Jordan Hammond Bali workshop latest post",
+      "description_zh": "Jordan Hammond 巴厘岛摄影工作坊 · 最新帖",
+      "highlight": "巴厘岛摄影工作坊 · 最新发布",
+      "westie_prompt": "A West Highland White Terrier trotting along a terraced rice paddy pathway in Bali at golden hour, lush green terraces cascading down misty hillsides, warm tropical light, travel photography mood, photorealistic, square composition, no text, no watermark.",
+      "score": 4.69,
+      "score_breakdown": {
+        "absolute_likes": 2.69,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 1,
+      "caption_en": "June has been a busy one! Having recently wrapped up a 10-day workshop in Vietnam, I'm now midway through a 9-day workshop here in Bali. It's always a privilege to share these places with fellow photographers.",
+      "caption_zh": "六月真的好忙！刚结束越南十天摄影工作坊，现在又在巴厘岛的九天工作坊进行中。能和摄友一起探索这些地方，真是莫大的荣幸。"
+    },
+    {
+      "url": "https://www.instagram.com/p/DaC8dgqgZxz/",
+      "source_type": "keyword",
+      "source_name": "#puppy",
+      "post_likes": 17845,
+      "age_days": 5.7,
+      "description": "Kebabtabeyogabu cute puppy fresh",
+      "description_zh": "超新鲜爆款萌犬视频 5天内",
+      "highlight": "蓬松日系小狗 · 本周新爆款",
+      "westie_prompt": "A West Highland White Terrier sitting next to a fluffy white mochi dessert on a pastel-colored cafe table, Japanese aesthetic, adorable curious expression, cloud-like fluffy white fur, soft warm indoor light, photorealistic, square composition, no text, no watermark.",
+      "score": 4.4,
+      "score_breakdown": {
+        "absolute_likes": 3.4,
+        "source_bonus": 0.0,
+        "recency": 1.0
+      },
+      "rank": 2,
+      "caption_en": "Fluffy Kebab-chan? Just tried the trending mochyurin sweet! When I used Gemini AI to remove the background, it gave me a fluffy cloud-like effect instead — just like Keba's fur texture!",
+      "caption_zh": "蓬松けばっちゅりん？刚尝试了热门甜点もっちゅりん！用Gemini去背景时，意外做出了蓬松云朵效果，跟Keba的毛一模一样～太可爱了！"
+    },
+    {
+      "url": "https://www.instagram.com/tom_juenemann/p/DV5nDpyDCzp/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 8082,
+      "age_days": 108.7,
+      "description": "Tom Juenemann world travel photography",
+      "description_zh": "世界旅行摄影 · 极光与异域风光",
+      "highlight": "世界旅行摄影 · 极光与异域风光",
+      "westie_prompt": "A West Highland White Terrier standing on a snowy Norwegian hilltop, the Northern Lights glowing vivid green and purple across the dark arctic sky above, vast dark landscape stretching into the distance, long-exposure travel photography mood, photorealistic, square composition, no text, no watermark.",
+      "score": 4.13,
+      "score_breakdown": {
+        "absolute_likes": 3.13,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 3,
+      "caption_en": "Since 2018, my Sony camera has been my passport to the world. I've chased the Northern Lights across Norway, walked through rain-soaked forests in Nicaragua, stood in Saudi Arabia's endless deserts, and explored Europe's most vibrant autumn scenery.",
+      "caption_zh": "自2018年以来，相机成了探索世界的通行证。追逐挪威极光、漫步尼加拉瓜雨林、站在沙特无垠的沙漠，探索欧洲最绚烂的秋色……每段旅程都是全新世界。"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZXCoh4BWH6/",
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "post_likes": 212720,
+      "age_days": 22.7,
+      "description": "Rural dog Haloooo adorable puppy",
+      "description_zh": "乡村小奶狗 Haloooo 可爱日常",
+      "highlight": "乡村小狗 Halooo · 21万赞爆款",
+      "westie_prompt": "A West Highland White Terrier peeking cheerfully over a rustic wooden gate in a green countryside field, soft morning mist in background, golden hour light, bright curious eyes, pastoral rural charm, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 4,
+      "caption_en": "Haloooo~ #ruraldog #puppy #dog #cute",
+      "caption_zh": "你好啊～ #乡村狗狗 #幼犬 #狗狗 #可爱"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZted_HI6D0/",
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "post_likes": 431735,
+      "age_days": 14.0,
+      "description": "GoldDogZeus doyoing trick viral",
+      "description_zh": "金毛 Zeus 的 doyoing 飞扑特技",
+      "highlight": "GoldDogZeus doyoing 飞扑 · 43万赞",
+      "westie_prompt": "A West Highland White Terrier caught mid-leap in a joyful flying jump toward the camera, pure excitement on its face, paws outstretched, bright green grass park background, dynamic action freeze-frame, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 5,
+      "caption_en": "Yup #GoldDogZeus #doyoing #dog #adorable #cute",
+      "caption_zh": "就是这样！跳起来！#GoldDogZeus #飞扑 #狗狗 #可爱"
+    },
+    {
+      "url": "https://www.instagram.com/p/DXz93dMzLGF/",
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "post_likes": 1887863,
+      "age_days": 60.8,
+      "description": "Abhixvisual viral dog content 1.8M",
+      "description_zh": "188万赞超级爆款狗狗视频",
+      "highlight": "山地狗狗 · 188万赞「比虚假的人更真实」",
+      "westie_prompt": "A West Highland White Terrier sitting proudly on a rocky mountain trail with dramatic Himalayan peaks and misty valleys stretching behind, rugged adventure landscape, late afternoon golden light, majestic and loyal expression, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 6,
+      "caption_en": "BETTER THAN FAKE PEOPLE 🫶🏻🐾 #Dog #doggy #doglover #mountaindogs",
+      "caption_zh": "比虚伪的人好多了 🫶🏻🐾 #狗狗 #山地犬 #狗狗爱好者"
+    },
+    {
+      "url": "https://www.instagram.com/p/DYZOY5yImX8/",
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "post_likes": 406734,
+      "age_days": 46.7,
+      "description": "Fineboymiki viral dog video",
+      "description_zh": "Fineboymiki 的40万赞爆款",
+      "highlight": "狗爪特写 · 40万赞爆款",
+      "westie_prompt": "An extreme close-up of a West Highland White Terrier's fluffy white paws resting on a warm light wood floor, tiny pink toe beans softly visible, shallow depth of field, dreamy soft light, intimate macro detail, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 7,
+      "caption_en": "Dog toes>>>>>> #dog #rescuedog #cuteanimal #dogtoes",
+      "caption_zh": "狗狗的爪爪>>>>>> #狗狗 #救援犬 #可爱动物 #狗爪"
+    },
+    {
+      "url": "https://www.instagram.com/p/DW9bbYxEiXW/",
+      "source_type": "keyword",
+      "source_name": "#dogsofinstagram",
+      "post_likes": 196932,
+      "age_days": 82.4,
+      "description": "Peanut pop the golden viral dog",
+      "description_zh": "金毛 Peanut 花式互动爆款",
+      "highlight": "金毛扮消防员 · 纽约 · 19.7万赞",
+      "westie_prompt": "A West Highland White Terrier wearing a tiny red firefighter helmet, sitting proudly beside a miniature toy fire truck on a city street, playful and confident expression, vibrant warm colors, fun cosplay portrait, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 8,
+      "caption_en": "An excellent fire fighter! 🧑‍🚒 🔥 #puppy #dogsofinstagram #fire #firefighting",
+      "caption_zh": "优秀的消防员！🧑‍🚒 🔥 #幼犬 #狗狗 #消防员"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZOTntph72d/",
+      "source_type": "keyword",
+      "source_name": "#dogsofinstagram",
+      "post_likes": 207949,
+      "age_days": 26.1,
+      "description": "Sally the golden pup cute",
+      "description_zh": "金毛 Sally 的甜蜜时刻",
+      "highlight": "金毛 Sally 叼树枝 · 20万赞励志萌宠",
+      "westie_prompt": "A West Highland White Terrier determinedly carrying a stick twice its own body length through a sunny garden gate, tongue out with effort, tail wagging, soft golden afternoon light, joyful persistence, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 9,
+      "caption_en": "If at first you don't succeed… try, try again. #goldenretriever #dogsofinstagram #puppiesofinstagram",
+      "caption_zh": "一次不成就再来一次……失败是成功之母 #金毛 #金毛猎犬 #幼犬"
+    },
+    {
+      "url": "https://www.instagram.com/p/DZ-o1nnRZ-U/",
+      "source_type": "keyword",
+      "source_name": "#dogsofinstagram",
+      "post_likes": 3134655,
+      "age_days": 7.4,
+      "description": "Noel bipawed shorkie two-legged dog viral",
+      "description_zh": "双腿残疾小狗 Noel 励志爆款 · 313万赞",
+      "highlight": "Noel 双腿残疾小狗 · 313万赞感动全网",
+      "westie_prompt": "A West Highland White Terrier balancing and trotting joyfully on its two hind legs across a warm sunlit wooden floor, resilient and happy expression, heartwarming candid moment, soft home interior lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 10,
+      "caption_en": "Tippy tapping her way to Mom #dog #dogsofinstagram #littledog #cute #2leggeddog",
+      "caption_zh": "踮脚小跑去找妈妈 🐾 #狗狗 #小型犬 #可爱 #双腿狗狗"
+    }
+  ]
+}
