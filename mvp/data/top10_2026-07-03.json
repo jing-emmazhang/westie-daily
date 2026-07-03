@@ -19,7 +19,8 @@
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 1
+      "rank": 1,
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: serene Austrian mountain lake reflection, soft morning mist Natural lighting, photorealistic, square composition, no text, no watermark."
     },
     {
       "url": "https://www.instagram.com/tom_juenemann/reel/DaKs-dyBF7T/",
@@ -37,7 +38,8 @@
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 2
+      "rank": 2,
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: lush German forest or meadow, golden light, immersive feel Natural lighting, photorealistic, square composition, no text, no watermark."
     },
     {
       "url": "https://www.instagram.com/tom_juenemann/reel/DaIiygtsX0-/",
@@ -55,7 +57,8 @@
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 3
+      "rank": 3,
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: dramatic Patagonia fjord, turquoise water, jagged peaks Natural lighting, photorealistic, square composition, no text, no watermark."
     },
     {
       "url": "https://www.instagram.com/tom_juenemann/reel/DaGi6jiuLM6/",
@@ -73,7 +76,8 @@
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 4
+      "rank": 4,
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: golden sunrise lake reflection, aerial perspective, summer Natural lighting, photorealistic, square composition, no text, no watermark."
     },
     {
       "url": "https://www.instagram.com/p/DYTakB_Mb7R/",
@@ -91,7 +95,8 @@
         "source_bonus": 2.0,
         "recency": 0.0
       },
-      "rank": 5
+      "rank": 5,
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: endless bouncing ball toy, pure looping joy Natural lighting, photorealistic, square composition, no text, no watermark."
     },
     {
       "url": "https://www.instagram.com/p/DZerATmklKs/",
@@ -109,7 +114,8 @@
         "source_bonus": 2.0,
         "recency": 0.0
       },
-      "rank": 6
+      "rank": 6,
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: fluffy dog at family reunion, heartwarming caption Natural lighting, photorealistic, square composition, no text, no watermark."
     },
     {
       "url": "https://www.instagram.com/jordhammond/p/DaNmspqD_Y-/",
@@ -127,7 +133,8 @@
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 7
+      "rank": 7,
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: tropical Bali greenery, golden hour photography, workshop vibe Natural lighting, photorealistic, square composition, no text, no watermark."
     },
     {
       "url": "https://www.instagram.com/tom_juenemann/p/DV5nDpyDCzp/",
@@ -145,7 +152,8 @@
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 8
+      "rank": 8,
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: sweeping European alpine scenery, cinematic mood Natural lighting, photorealistic, square composition, no text, no watermark."
     },
     {
       "url": "https://www.instagram.com/p/DZXCoh4BWH6/",
@@ -163,7 +171,8 @@
         "source_bonus": 2.0,
         "recency": 0.0
       },
-      "rank": 9
+      "rank": 9,
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: curious puppy greeting, rustic outdoor backdrop Natural lighting, photorealistic, square composition, no text, no watermark."
     },
     {
       "url": "https://www.instagram.com/p/DYkBi0olpne/",
@@ -181,7 +190,8 @@
         "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 10
+      "rank": 10,
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: dog in strawberry raincoat costume, clean studio background Natural lighting, photorealistic, square composition, no text, no watermark."
     }
   ]
 }
