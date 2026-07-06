@@ -1,0 +1,207 @@
+{
+  "date": "2026-07-06",
+  "scraped_at": "2026-07-06 17:15:53",
+  "total_candidates": 17,
+  "posts": [
+    {
+      "url": "https://www.instagram.com/tom_juenemann/p/Daax2yRDEJN/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 8098,
+      "age_days": 0.7,
+      "caption_en": "The lake above the ocean 🤯 Have you ever been to the Faroe Islands? 🇫🇴 #faroeislands #nature",
+      "caption_zh": "大洋上方的湖 🤯 你去过法罗群岛吗？🇫🇴 #法罗群岛 #自然",
+      "description": "Faroe Islands lake-above-ocean optical illusion shot — posted just 17 hours ago",
+      "description_zh": "法罗群岛悬浮湖奇景，刚发17小时",
+      "highlight": "法罗群岛悬浮湖 · 刚发17小时",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 法罗群岛悬浮湖 · 刚发17小时. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 5.13,
+      "score_breakdown": {
+        "absolute_likes": 3.13,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.instagram.com/tom_juenemann/reel/DaaCoAPuXkM/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 8098,
+      "age_days": 1.0,
+      "caption_en": "The Faroe Islands reel — dramatic cliffs and mirror-like lake views 🇫🇴",
+      "caption_zh": "法罗群岛Reel——悬崖峭壁与镜面湖景 🇫🇴",
+      "description": "Faroe Islands cinematic reel with dramatic cliffs and lake reflections — 1 day old",
+      "description_zh": "法罗群岛电影感Reel，悬崖与湖景，发布1天",
+      "highlight": "法罗群岛悬崖Reel · 刚发1天",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 法罗群岛悬崖Reel · 刚发1天. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 5.13,
+      "score_breakdown": {
+        "absolute_likes": 3.13,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://www.instagram.com/tom_juenemann/reel/DaYPJ8OM5L6/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 8098,
+      "age_days": 1.7,
+      "caption_en": "Faroe Islands — where the sky meets the ocean 🌊🇫🇴",
+      "caption_zh": "法罗群岛——天海相接之处 🌊🇫🇴",
+      "description": "Faroe Islands landscape reel — sky meets ocean, sweeping dramatic scenery",
+      "description_zh": "法罗群岛天海相接风光Reel，气势磅礴",
+      "highlight": "法罗群岛天海相接 · 近期发布",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 法罗群岛天海相接 · 近期发布. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 5.13,
+      "score_breakdown": {
+        "absolute_likes": 3.13,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 3
+    },
+    {
+      "url": "https://www.instagram.com/tom_juenemann/reel/DaXX8pRsOdX/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 8098,
+      "age_days": 2.0,
+      "caption_en": "Faroe Islands — untouched wilderness 🌿🇫🇴",
+      "caption_zh": "法罗群岛——原始荒野 🌿🇫🇴",
+      "description": "Faroe Islands raw wilderness reel — green cliffs and mist, 2 days old",
+      "description_zh": "法罗群岛原始荒野Reel，绿色悬崖与薄雾",
+      "highlight": "法罗群岛荒野Reel · 近期发布",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 法罗群岛荒野Reel · 近期发布. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 5.13,
+      "score_breakdown": {
+        "absolute_likes": 3.13,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/p/DaNmspqD_Y-/",
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "post_likes": 3152,
+      "age_days": 5.8,
+      "caption_en": "Another lap around the sun, completed! Feeling grateful for Bali, the people, and sharing this incredible world with my daughter 🌋🎂",
+      "caption_zh": "又绕太阳跑了一圈！感恩巴厘岛、遇见的人，以及能和女儿分享这个美好世界 🌋🎂",
+      "description": "Travel photographer's birthday reflection in Bali — nearly a decade on the island, deeply personal post",
+      "description_zh": "旅拍摄影师巴厘岛生日感悟，在岛近十年，深情回顾",
+      "highlight": "巴厘岛生日感悟 · 旅拍人十年",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 巴厘岛生日感悟 · 旅拍人十年. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.8,
+      "score_breakdown": {
+        "absolute_likes": 2.8,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 5
+    },
+    {
+      "url": "https://www.instagram.com/p/DW9J2iAESvZ/",
+      "source_type": "keyword",
+      "source_name": "#puppy",
+      "post_likes": 348916,
+      "age_days": 86.8,
+      "caption_en": "meet melo bear 🐻‍❄️✨❄️ #samoyed #samoyedpuppy",
+      "caption_zh": "认识一下蜜罗熊 🐻‍❄️✨❄️ #萨摩耶 #萨摩耶幼犬",
+      "description": "Samoyed puppy introduction with 348k likes — cloud-like white fluffiness debut post",
+      "description_zh": "萨摩耶幼犬首亮相，34万赞，云朵般白毛超梦幻",
+      "highlight": "萨摩耶奶狗首秀 · 34万赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 萨摩耶奶狗首秀 · 34万赞. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 6
+    },
+    {
+      "url": "https://www.instagram.com/p/DYMMJ3Dkg8g/",
+      "source_type": "keyword",
+      "source_name": "#dogsofinstagram",
+      "post_likes": 80228,
+      "age_days": 48.0,
+      "caption_en": "Actually their mouth smells the worst 🤢💩 Look at that last stretch — so cute! #lifewithdogs #dogvideo",
+      "caption_zh": "其实嘴巴才是最臭的🤢💩 最后那个伸懒腰的姿势太可爱了！#有狗的生活 #狗狗视频",
+      "description": "Japanese dog video — funny confession about dog mouth smell followed by an adorable stretch, 80k likes",
+      "description_zh": "日系狗狗视频：吐槽嘴巴臭但最后伸懒腰超可爱，8万赞",
+      "highlight": "日系狗狗伸懒腰 · 8万赞爆款",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 日系狗狗伸懒腰 · 8万赞爆款. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.92,
+      "score_breakdown": {
+        "absolute_likes": 3.92,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 7
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/p/DZNJEHlj_I_/",
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "post_likes": 3152,
+      "age_days": 30.8,
+      "caption_en": "Bali light — the kind you chase for years and never quite catch 🌅",
+      "caption_zh": "巴厘岛的光——那种你追了多年却始终捉不住的光 🌅",
+      "description": "Bali golden hour photography — chasing the light that defines this island",
+      "description_zh": "巴厘岛黄金时刻光影摄影",
+      "highlight": "巴厘岛追光 · 旅拍金光",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 巴厘岛追光 · 旅拍金光. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.8,
+      "score_breakdown": {
+        "absolute_likes": 2.8,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 8
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/p/DYR2DeKD9tw/",
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "post_likes": 3152,
+      "age_days": 53.9,
+      "caption_en": "The rice terraces never get old. Bali from above 🌿",
+      "caption_zh": "梯田永远不会让人厌倦。从高处俯瞰巴厘岛 🌿",
+      "description": "Aerial view of Bali rice terraces — lush green layers from above",
+      "description_zh": "俯瞰巴厘岛梯田，翠绿层叠",
+      "highlight": "巴厘岛梯田俯瞰 · 翠绿层叠",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 巴厘岛梯田俯瞰 · 翠绿层叠. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.8,
+      "score_breakdown": {
+        "absolute_likes": 2.8,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 9
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/p/DX4OkVzj-nV/",
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "post_likes": 3152,
+      "age_days": 63.8,
+      "caption_en": "Workshop mornings in Bali — teaching photographers to see the light differently 📷",
+      "caption_zh": "巴厘岛工作坊清晨——教摄影师用不同眼光看光线 📷",
+      "description": "Bali photography workshop — teaching light and composition in the golden hour",
+      "description_zh": "巴厘岛摄影工作坊，教学黄金时刻光线与构图",
+      "highlight": "巴厘岛摄影工作坊 · 教光影构图",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 巴厘岛摄影工作坊 · 教光影构图. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.8,
+      "score_breakdown": {
+        "absolute_likes": 2.8,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 10
+    }
+  ]
+}
