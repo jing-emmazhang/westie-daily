@@ -1,0 +1,207 @@
+{
+  "date": "2026-07-08",
+  "scraped_at": "2026-07-08 10:43:28",
+  "total_candidates": 13,
+  "posts": [
+    {
+      "url": "https://www.instagram.com/tom_juenemann/p/Daax2yRDEJN/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 8098,
+      "age_days": 2.7,
+      "caption_en": "The lake above the ocean 🤯 Have you ever been to the Faroe Islands? 🇫🇴 #faroeislands #nature",
+      "caption_zh": "大洋上方的湖 🤯 你去过法罗群岛吗？🇫🇴 #法罗群岛 #自然",
+      "description": "Faroe Islands lake-above-ocean optical illusion — iconic shot, 2.7 days old, 8k likes",
+      "description_zh": "法罗群岛悬浮湖奇观，大洋上方的湖，2.7天，8千赞",
+      "highlight": "法罗群岛悬浮湖 · 2.7天8千赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 法罗群岛悬浮湖 · 2.7天8千赞. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 5.13,
+      "score_breakdown": {
+        "absolute_likes": 3.13,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.instagram.com/tom_juenemann/reel/DaaCoAPuXkM/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 8098,
+      "age_days": 3.0,
+      "caption_en": "Faroe Islands — where cliffs meet the Atlantic 🇫🇴 #faroeislands #travel",
+      "caption_zh": "法罗群岛——悬崖与大西洋相遇之处 🇫🇴",
+      "description": "Faroe Islands dramatic cliffs reel — cinematic Atlantic scenery, 3 days old",
+      "description_zh": "法罗群岛悬崖Reel，大西洋奇景，3天",
+      "highlight": "法罗群岛悬崖大西洋 · 近期发布",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 法罗群岛悬崖大西洋 · 近期发布. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 5.13,
+      "score_breakdown": {
+        "absolute_likes": 3.13,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://www.instagram.com/tom_juenemann/reel/DaYPJ8OM5L6/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 8098,
+      "age_days": 3.7,
+      "caption_en": "Faroe Islands — sky and ocean as far as the eye can see 🇫🇴",
+      "caption_zh": "法罗群岛——目之所及皆是天海 🇫🇴",
+      "description": "Faroe Islands panoramic sky-ocean reel, 3.7 days old",
+      "description_zh": "法罗群岛天海相接全景Reel，3.7天",
+      "highlight": "法罗群岛天海全景 · 近期发布",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 法罗群岛天海全景 · 近期发布. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 5.13,
+      "score_breakdown": {
+        "absolute_likes": 3.13,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 3
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/p/DaNmspqD_Y-/",
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "post_likes": 3152,
+      "age_days": 7.8,
+      "caption_en": "Another lap around the sun, completed! Nearly a decade in Bali, camera in hand — feeling grateful for the people, the places, and sharing this world with my daughter 🌋🎂",
+      "caption_zh": "又绕太阳跑了一圈！在巴厘岛快十年了，相机不离手——感恩遇见的人、去过的地方，以及能和女儿一起分享这个世界 🌋🎂",
+      "description": "Travel photographer's birthday reflection — a decade in Bali, deeply personal and engaging",
+      "description_zh": "旅拍摄影师巴厘岛生日感悟，十年回顾，情感深厚",
+      "highlight": "巴厘岛生日十年感悟 · 旅拍人故事",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 巴厘岛生日十年感悟 · 旅拍人故事. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.8,
+      "score_breakdown": {
+        "absolute_likes": 2.8,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/p/Dac6PdEj2qs/",
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "post_likes": 2231,
+      "age_days": 1.6,
+      "caption_en": "The September Vietnam workshop is coming up — ten days through northern and central Vietnam, photographing harvest season in Mu Cang Chai, traditional villages and fishing communities. Small group, all experience levels welcome, link in bio 👨🏾‍🌾🇻🇳",
+      "caption_zh": "九月越南摄影工作坊即将开始——穿越越南北部与中部十天，拍摄木仓寨收获季节、传统村庄和沿海渔村。小班制，欢迎所有水平，简介链接 👨🏾‍🌾🇻🇳",
+      "description": "Vietnam photography workshop promo — Mu Cang Chai harvest season terraces, 1.6 days old",
+      "description_zh": "越南摄影工作坊宣传，木仓寨收获季梯田，1.6天",
+      "highlight": "越南木仓寨梯田 · 收获季摄影",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 越南木仓寨梯田 · 收获季摄影. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.68,
+      "score_breakdown": {
+        "absolute_likes": 2.68,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 5
+    },
+    {
+      "url": "https://www.instagram.com/p/DZ-o1nnRZ-U/",
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "post_likes": 2405727,
+      "age_days": 13.3,
+      "caption_en": "Noel's excited because Dad's home! #cute #littledog #dog #dogsofinstagram #2leggeddog #happydogs #amputee",
+      "caption_zh": "诺埃尔因为爸爸回家了而超级兴奋！#可爱 #小狗 #双腿狗 #开心狗狗 #残疾犬",
+      "description": "Two-legged dog Noel goes wild with joy as owner returns home — 2.4M likes viral video",
+      "description_zh": "双腿残疾犬诺埃尔见到主人回家激动狂奔，240万赞病毒传播",
+      "highlight": "双腿残疾犬迎主人 · 240万赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 双腿残疾犬迎主人 · 240万赞. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 6
+    },
+    {
+      "url": "https://www.instagram.com/p/DZyawt5lHWv/",
+      "source_type": "keyword",
+      "source_name": "#dogsofinstagram",
+      "post_likes": 275750,
+      "age_days": 18.1,
+      "caption_en": "Our favorite 2025 pics of the wean bean! Thank you for loving the lil mans 🥹💚 so grateful for every one of you in Winston's hype squad. Have a safe and happy new year! 🎊😘",
+      "caption_zh": "我们的小豆豆最爱的2025年照片！谢谢你们爱护小家伙🥹💚 感谢每一位温斯顿应援团的成员。新年快乐！🎊😘",
+      "description": "Winston the Chihuahua's 2025 highlight reel — 275k likes year-end fan appreciation post",
+      "description_zh": "吉娃娃温斯顿2025年精选，27.5万赞年终感恩粉丝帖",
+      "highlight": "吉娃娃温斯顿年度精选 · 27万赞",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 吉娃娃温斯顿年度精选 · 27万赞. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 7
+    },
+    {
+      "url": "https://www.instagram.com/p/DaHmRzwiol7/",
+      "source_type": "keyword",
+      "source_name": "#dogsofinstagram",
+      "post_likes": 3538,
+      "age_days": 9.9,
+      "caption_en": "Little miss sunshine cruising into the weekend like… ☀️🛥️ #toypoodle #smalldog",
+      "caption_zh": "小阳光小姐就这样驶入周末～☀️🛥️ #茶杯贵宾 #小型犬",
+      "description": "Toy poodle 'little miss sunshine' weekend energy — 3.5k likes Dutch account",
+      "description_zh": "茶杯贵宾'小阳光小姐'周末出行感，荷兰账号，3.5k赞",
+      "highlight": "贵宾小阳光 · 周末出行感",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 贵宾小阳光 · 周末出行感. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.84,
+      "score_breakdown": {
+        "absolute_likes": 2.84,
+        "source_bonus": 0.0,
+        "recency": 1.0
+      },
+      "rank": 8
+    },
+    {
+      "url": "https://www.instagram.com/tom_juenemann/reel/DafJy26u1YK/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 106,
+      "age_days": 0.7,
+      "caption_en": "Do you agree? 🫶 #hallstatt #fyp #travel",
+      "caption_zh": "你同意吗？🫶 #哈尔施塔特 #旅行",
+      "description": "Hallstatt Austria village shot — just posted 17 hours ago, asking viewers to agree on its beauty",
+      "description_zh": "奥地利哈尔施塔特童话小镇，刚发17小时",
+      "highlight": "哈尔施塔特童话小镇 · 刚发17小时",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 哈尔施塔特童话小镇 · 刚发17小时. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.62,
+      "score_breakdown": {
+        "absolute_likes": 1.62,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 9
+    },
+    {
+      "url": "https://www.instagram.com/tom_juenemann/reel/DadS_NzsXDN/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 99,
+      "age_days": 1.4,
+      "caption_en": "The best therapy..a view like this 😍 Do you agree? #therapy #nature #mountains",
+      "caption_zh": "最好的疗愈……就是这样的风景😍 你同意吗？#治愈 #自然 #山脉",
+      "description": "Austrian mountain panorama — 'best therapy' framing, 1 day old",
+      "description_zh": "奥地利山脉全景，'最好的治愈'配文，发布1天",
+      "highlight": "奥地利山脉治愈风景 · 发布1天",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: 奥地利山脉治愈风景 · 发布1天. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.6,
+      "score_breakdown": {
+        "absolute_likes": 1.6,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 10
+    }
+  ]
+}
