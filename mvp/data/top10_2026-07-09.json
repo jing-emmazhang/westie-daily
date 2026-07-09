@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-09",
+  "scraped_at": "2026-07-09 11:13:40",
+  "total_candidates": 8,
+  "posts": [
+    {
+      "url": "https://www.instagram.com/tom_juenemann/reel/DahzpoPMRXW/",
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "post_likes": 8110,
+      "age_days": 0.7,
+      "caption_en": "The most iconic fishing village in Norway #nature #norway",
+      "caption_zh": "挪威最标志性的渔村",
+      "description": "Nusfjord — Norway's 1000-year-old fishing village with red cabins and cod-fishing heritage, brand new post",
+      "description_zh": "挪威千年渔村努斯峡湾，红色木屋，超新鲜",
+      "highlight": "挪威千年渔村",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Nusfjord — Norway's 1000-year-old fishing village with red cabins and cod-fishing heritage, brand new post. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 5.13,
+      "score_breakdown": {
+        "absolute_likes": 3.13,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/p/DaiHpmDjcCe/",
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "post_likes": 1208,
+      "age_days": 0.58,
+      "caption_en": "One of the most remarkable processions — thousands of Balinese descending to Atuh Beach for Nyepi",
+      "caption_zh": "数千巴厘人持庙宇圣物游行至阿图海滩",
+      "description": "Thousands in Balinese Nyepi ceremonial procession to cleanse temple heirlooms at the ocean — powerful documentary photo",
+      "description_zh": "巴厘岛日历新年万人宗教游行，纪录片级大片",
+      "highlight": "巴厘岛万人宗教游行",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Thousands in Balinese Nyepi ceremonial procession to cleanse temple heirlooms at the ocean — powerful documentary photo. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.47,
+      "score_breakdown": {
+        "absolute_likes": 2.47,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://www.instagram.com/p/DXZwoI4ic_g/",
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "post_likes": 385000,
+      "age_days": 78.4,
+      "caption_en": "I don't wanna be handsome #goldenretriever #funnydogs",
+      "caption_zh": "我不想变帅",
+      "description": "Golden retriever refusing to be handsome — relatable caption that generated 385K likes",
+      "description_zh": "金毛以不想变帅为梗，配文极具共鸣感，赞数爆炸",
+      "highlight": "金毛拒绝变帅",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Golden retriever refusing to be handsome — relatable caption that generated 385K likes. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 3
+    },
+    {
+      "url": "https://www.instagram.com/p/DX5LRYXOaaS/",
+      "source_type": "keyword",
+      "source_name": "#dogsofinstagram",
+      "post_likes": 79000,
+      "age_days": 66.2,
+      "caption_en": "Sundaze #cockerspaniel #sundayvibes #sleepypuppy",
+      "caption_zh": "周日慵懒",
+      "description": "Cocker spaniel in gloriously lazy Sunday morning mood — sleepy, relaxed, totally relatable",
+      "description_zh": "可卡犬超懒周日晨，慵懒治愈风格",
+      "highlight": "可卡犬周日慵懒",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Cocker spaniel in gloriously lazy Sunday morning mood — sleepy, relaxed, totally relatable. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.92,
+      "score_breakdown": {
+        "absolute_likes": 3.92,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://www.instagram.com/p/DXxRY3FiO2i/",
+      "source_type": "keyword",
+      "source_name": "#dogsofinstagram",
+      "post_likes": 11000,
+      "age_days": 69.3,
+      "caption_en": "I believe I can fly #toypoodle #cutedog",
+      "caption_zh": "我相信我能飞",
+      "description": "Toy poodle captured mid-jump like it's actually flying — perfect timing meets adorable caption",
+      "description_zh": "玩具贵宾犬跳跃抓拍，仿佛在飞翔",
+      "highlight": "贵宾犬飞翔瞬间",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Toy poodle captured mid-jump like it's actually flying — perfect timing meets adorable caption. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.23,
+      "score_breakdown": {
+        "absolute_likes": 3.23,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 5
+    },
+    {
+      "url": "https://www.instagram.com/p/DZHBY-xEfvD/",
+      "source_type": "keyword",
+      "source_name": "#puppy",
+      "post_likes": 7911,
+      "age_days": 36.0,
+      "caption_en": "Hello Kitty real-life version, wearing a bib and became even more baby-like",
+      "caption_zh": "HelloKitty真人版，戴上围兜更像宝宝了",
+      "description": "Small dog wearing a Hello Kitty bib, irresistibly soft and babyish look",
+      "description_zh": "小狗戴Hello Kitty围兜，萌感拉满，超像宝宝",
+      "highlight": "HelloKitty版小狗",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Small dog wearing a Hello Kitty bib, irresistibly soft and babyish look. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.12,
+      "score_breakdown": {
+        "absolute_likes": 3.12,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 6
+    },
+    {
+      "url": "https://www.instagram.com/p/DYQ0yCDkRxv/",
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "post_likes": 3493,
+      "age_days": 57.0,
+      "caption_en": "Bored, play with Strawberry, three cuteness moves #cutedog #dog",
+      "caption_zh": "无聊了，和草莓一起玩，卖萌三连招",
+      "description": "Korean bichon frise puppy showing three adorable aegyo (cuteness) poses in a playful series",
+      "description_zh": "韩国比熊犬展示三款卖萌表情，萌到爆炸",
+      "highlight": "比熊三连卖萌",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Korean bichon frise puppy showing three adorable aegyo (cuteness) poses in a playful series. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 2.83,
+      "score_breakdown": {
+        "absolute_likes": 2.83,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 7
+    },
+    {
+      "url": "https://www.instagram.com/p/DaMyhCtgFaD/",
+      "source_type": "keyword",
+      "source_name": "#puppy",
+      "post_likes": 80,
+      "age_days": 8.86,
+      "caption_en": "Minibichon boy, full of fluffy fur. He is full of cuteness",
+      "caption_zh": "迷你比熊男孩，毛茸茸满满的",
+      "description": "Fresh mini bichon reel overflowing with fluffy white fur and puppy energy",
+      "description_zh": "迷你比熊白毛蓬松，可爱到溢出屏幕",
+      "highlight": "迷你比熊毛茸茸",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fresh mini bichon reel overflowing with fluffy white fur and puppy energy. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 2.52,
+      "score_breakdown": {
+        "absolute_likes": 1.52,
+        "source_bonus": 0.0,
+        "recency": 1.0
+      },
+      "rank": 8
+    }
+  ]
+}
