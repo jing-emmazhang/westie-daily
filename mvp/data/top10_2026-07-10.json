@@ -1,27 +1,207 @@
 {
   "date": "2026-07-10",
-  "scraped_at": "2026-07-10 10:36:35",
-  "total_candidates": 1,
+  "scraped_at": "2026-07-10 11:14:34",
+  "total_candidates": 16,
   "posts": [
     {
-      "url": "https://www.instagram.com/p/DYCkt4uCTx0/",
-      "source_type": "keyword",
-      "source_name": "#dog",
+      "url": "https://www.instagram.com/itsdougthepug/reel/DaYCX0coQjX/",
+      "source_type": "account",
+      "source_name": "@itsdougthepug",
+      "post_likes": 25000,
+      "age_days": 5.5,
+      "caption_en": "\"How you'll find me at the bbq 🍉\" -Doug #pug #asmr",
+      "caption_zh": "烤肉局找我就在西瓜旁边 🍉",
+      "description": "Pug lazily eating watermelon at a summer BBQ, content and relaxed summer vibes",
+      "description_zh": "巴哥懒洋洋在夏日烤肉派对边吃西瓜，夏天躺平状态",
+      "highlight": "BBQ现场 · 找我就在西瓜旁",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Pug lazily eating watermelon at a summer BBQ, content and relaxed summer vibes. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 5.52,
+      "score_breakdown": {
+        "absolute_likes": 3.52,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.instagram.com/itsdougthepug/reel/Dad1OJJIq0P/",
+      "source_type": "account",
+      "source_name": "@itsdougthepug",
+      "post_likes": 6748,
+      "age_days": 3.2,
+      "caption_en": "\"Roo-ting for team USA! 🇺🇸\" -Doug and Dory. Comment the flag of which team you want to win! #worldcup #pug",
+      "caption_zh": "为美国队加油！🇺🇸 评论你支持哪个队的旗帜！#世界杯",
+      "description": "Two pugs in World Cup soccer theme, cheering for Team USA, fun patriotic energy",
+      "description_zh": "两只巴哥穿世界杯主题服装为美国队应援，趣味爱国氛围",
+      "highlight": "世界杯应援 · 为球队加油",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Two pugs in World Cup soccer theme, cheering for Team USA, fun patriotic energy. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 5.06,
+      "score_breakdown": {
+        "absolute_likes": 3.06,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://www.instagram.com/p/DZJ6h38kRtt/",
+      "source_type": "account",
+      "source_name": "@my.ddalki",
       "post_likes": 15000,
-      "age_days": 63.5,
-      "caption_en": "I'm 100% sure he is up to no good — who else agrees? #goldenretriever #sideeye #dog",
-      "caption_zh": "我100%确定他在搞事情，谁同意？",
-      "description": "Golden retriever caught in a classic side-eye moment, plotting something mischievous — highly relatable meme format",
-      "description_zh": "金毛被抓到经典斜眼表情，正在密谋坏事，超级共鸣的meme格式",
-      "highlight": "金毛斜眼密谋",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Golden retriever caught in a classic side-eye moment, plotting something mischievous — highly relatable meme format. Natural lighting, photorealistic, square composition, no text, no watermark.",
-      "score": 3.34,
+      "age_days": 35.8,
+      "caption_en": "It's baby nap time 😴🌙 Hugging a friend while sleeping, what an angel 🍼",
+      "caption_zh": "宝宝午睡时间 😴🌙 抱着玩具小伙伴入睡的小天使",
+      "description": "Tiny fluffy bichon puppy napping while cuddling a stuffed animal friend, angelic and peaceful",
+      "description_zh": "毛茸茸小比熊抱着玩偶睡午觉，小天使般安详",
+      "highlight": "抱玩偶睡午觉 · 比熊小天使",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Tiny fluffy bichon puppy napping while cuddling a stuffed animal friend, angelic and peaceful. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.34,
       "score_breakdown": {
         "absolute_likes": 3.34,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 3
+    },
+    {
+      "url": "https://www.instagram.com/my.ddalki/reel/DakrJ6YhFZj/",
+      "source_type": "account",
+      "source_name": "@my.ddalki",
+      "post_likes": 757,
+      "age_days": 0.6,
+      "caption_en": "Strawberry wants to lie here 🤍 mesh carry bag for public transport 딸기 2.3kg M size",
+      "caption_zh": "草莓要睡在这里了 🤍 可用于公共交通的网格拉链外出包",
+      "description": "Tiny fluffy bichon curled up resting inside a cozy mesh pet carrier, travel-ready cuteness",
+      "description_zh": "白色比熊蜷缩在网格宠物包里，出行路上的可爱小球",
+      "highlight": "宠物包里的小球 · 出行中的草莓",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Tiny fluffy bichon curled up resting inside a cozy mesh pet carrier, travel-ready cuteness. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.3,
+      "score_breakdown": {
+        "absolute_likes": 2.3,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://www.instagram.com/p/DaiA85FgbLJ/",
+      "source_type": "account",
+      "source_name": "@my.ddalki",
+      "post_likes": 461,
+      "age_days": 2.0,
+      "caption_en": "Strawberry got groomed ☁️🌟 Came back with two cute hair clips 🍒 @favorite_ss",
+      "caption_zh": "草莓去美容院了 ☁️🌟 带着两个发夹回来啦 🍒",
+      "description": "Fluffy bichon freshly groomed with two cute cherry-shaped hair clips, looking pristine and styled",
+      "description_zh": "比熊刚做完美容，戴着两个小发夹回来，干净清爽又可爱",
+      "highlight": "刚做完美容 · 发夹小公主",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fluffy bichon freshly groomed with two cute cherry-shaped hair clips, looking pristine and styled. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.13,
+      "score_breakdown": {
+        "absolute_likes": 2.13,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 5
+    },
+    {
+      "url": "https://www.instagram.com/p/DZYFLqWuqXW/",
+      "source_type": "account",
+      "source_name": "@jiffpom",
+      "post_likes": 4794,
+      "age_days": 30.3,
+      "caption_en": "moonbeam milkshake 🩷 #tinyicon",
+      "caption_zh": "月光奶昔 🩷",
+      "description": "Fluffy Pomeranian in dreamy pink moonbeam-themed photoshoot, pastel soft-light aesthetic",
+      "description_zh": "博美月光奶昔主题写真，梦幻粉色柔光风",
+      "highlight": "月光奶昔 · 梦幻粉色写真",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fluffy Pomeranian in dreamy pink moonbeam-themed photoshoot, pastel soft-light aesthetic. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.94,
+      "score_breakdown": {
+        "absolute_likes": 2.94,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 6
+    },
+    {
+      "url": "https://www.instagram.com/p/DaFWbPVkYJR/",
+      "source_type": "account",
+      "source_name": "@my.ddalki",
+      "post_likes": 3996,
+      "age_days": 12.8,
+      "caption_en": "SmallStuff brand ambassador 10th term, Kim Strawberry 🖤",
+      "caption_zh": "草莓成为品牌大使了 🖤",
+      "description": "Fluffy white bichon in black-tone brand ambassador shoot, stylish monochrome contrast",
+      "description_zh": "白色比熊黑色系大使写真，反差萌十足",
+      "highlight": "黑色系代言 · 反差萌大使",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fluffy white bichon in black-tone brand ambassador shoot, stylish monochrome contrast. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.88,
+      "score_breakdown": {
+        "absolute_likes": 2.88,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 7
+    },
+    {
+      "url": "https://www.instagram.com/p/DYdAcLexqpi/",
+      "source_type": "keyword",
+      "source_name": "#doglife",
+      "post_likes": 50000,
+      "age_days": 53.3,
+      "caption_en": "Dogs \"smiling\" is one of the cutest things ever 😭 mouth open, tongue out, eyes relaxed, just looking completely happy",
+      "caption_zh": "狗狗笑起来真的是世界上最可爱的事 😭 嘴巴张开、舌头伸出、眼神放松，完全幸福的样子",
+      "description": "Dog with open mouth and tongue out, eyes relaxed — looking completely happy and smiley",
+      "description_zh": "狗狗露出满足笑脸，舌头伸出，眼神放松，幸福感溢出屏幕",
+      "highlight": "狗狗也会笑 · 世界上最萌的笑容",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Dog with open mouth and tongue out, eyes relaxed — looking completely happy and smiley. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.76,
+      "score_breakdown": {
+        "absolute_likes": 3.76,
         "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 1
+      "rank": 8
+    },
+    {
+      "url": "https://www.instagram.com/p/DYvGkKyOKJ-/",
+      "source_type": "account",
+      "source_name": "@jiffpom",
+      "post_likes": 2777,
+      "age_days": 46.2,
+      "caption_en": "Ⓜ️ m I l k y  #tinyicon",
+      "caption_zh": "奶白色的你 ✨",
+      "description": "Fluffy white Pomeranian Milky, tiny and cloud-like, icon-level cuteness",
+      "description_zh": "博美奶白色写真，小巧云朵般的可爱",
+      "highlight": "奶白小云朵 · 博美白色版",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fluffy white Pomeranian Milky, tiny and cloud-like, icon-level cuteness. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.75,
+      "score_breakdown": {
+        "absolute_likes": 2.75,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 9
+    },
+    {
+      "url": "https://www.instagram.com/p/DZ5em9JRVu9/",
+      "source_type": "account",
+      "source_name": "@jiffpom",
+      "post_likes": 2022,
+      "age_days": 17.4,
+      "caption_en": "Baby Bro 🩵 #tinyicon",
+      "caption_zh": "小弟弟来了 🩵",
+      "description": "Tiny fluffy Pomeranian puppy in a soft blue-toned baby brother portrait",
+      "description_zh": "迷你博美幼崽，蓝色调可爱宝宝相",
+      "highlight": "小弟弟来了 · 博美婴儿写真",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Tiny fluffy Pomeranian puppy in a soft blue-toned baby brother portrait. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.64,
+      "score_breakdown": {
+        "absolute_likes": 2.64,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 10
     }
   ]
 }
