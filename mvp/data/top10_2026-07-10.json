@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "scraped_at": "2026-07-10 11:14:34",
+  "scraped_at": "2026-07-10 11:51:59",
   "total_candidates": 16,
   "posts": [
     {
@@ -84,26 +84,6 @@
       "rank": 4
     },
     {
-      "url": "https://www.instagram.com/p/DaiA85FgbLJ/",
-      "source_type": "account",
-      "source_name": "@my.ddalki",
-      "post_likes": 461,
-      "age_days": 2.0,
-      "caption_en": "Strawberry got groomed ☁️🌟 Came back with two cute hair clips 🍒 @favorite_ss",
-      "caption_zh": "草莓去美容院了 ☁️🌟 带着两个发夹回来啦 🍒",
-      "description": "Fluffy bichon freshly groomed with two cute cherry-shaped hair clips, looking pristine and styled",
-      "description_zh": "比熊刚做完美容，戴着两个小发夹回来，干净清爽又可爱",
-      "highlight": "刚做完美容 · 发夹小公主",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fluffy bichon freshly groomed with two cute cherry-shaped hair clips, looking pristine and styled. Natural lighting, photorealistic, square composition, no text, no watermark.",
-      "score": 4.13,
-      "score_breakdown": {
-        "absolute_likes": 2.13,
-        "source_bonus": 1.0,
-        "recency": 1.0
-      },
-      "rank": 5
-    },
-    {
       "url": "https://www.instagram.com/p/DZYFLqWuqXW/",
       "source_type": "account",
       "source_name": "@jiffpom",
@@ -121,27 +101,7 @@
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 6
-    },
-    {
-      "url": "https://www.instagram.com/p/DaFWbPVkYJR/",
-      "source_type": "account",
-      "source_name": "@my.ddalki",
-      "post_likes": 3996,
-      "age_days": 12.8,
-      "caption_en": "SmallStuff brand ambassador 10th term, Kim Strawberry 🖤",
-      "caption_zh": "草莓成为品牌大使了 🖤",
-      "description": "Fluffy white bichon in black-tone brand ambassador shoot, stylish monochrome contrast",
-      "description_zh": "白色比熊黑色系大使写真，反差萌十足",
-      "highlight": "黑色系代言 · 反差萌大使",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fluffy white bichon in black-tone brand ambassador shoot, stylish monochrome contrast. Natural lighting, photorealistic, square composition, no text, no watermark.",
-      "score": 3.88,
-      "score_breakdown": {
-        "absolute_likes": 2.88,
-        "source_bonus": 1.0,
-        "recency": 0.0
-      },
-      "rank": 7
+      "rank": 5
     },
     {
       "url": "https://www.instagram.com/p/DYdAcLexqpi/",
@@ -161,7 +121,7 @@
         "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 8
+      "rank": 6
     },
     {
       "url": "https://www.instagram.com/p/DYvGkKyOKJ-/",
@@ -181,27 +141,47 @@
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 9
+      "rank": 7
     },
     {
-      "url": "https://www.instagram.com/p/DZ5em9JRVu9/",
-      "source_type": "account",
-      "source_name": "@jiffpom",
-      "post_likes": 2022,
-      "age_days": 17.4,
-      "caption_en": "Baby Bro 🩵 #tinyicon",
-      "caption_zh": "小弟弟来了 🩵",
-      "description": "Tiny fluffy Pomeranian puppy in a soft blue-toned baby brother portrait",
-      "description_zh": "迷你博美幼崽，蓝色调可爱宝宝相",
-      "highlight": "小弟弟来了 · 博美婴儿写真",
-      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Tiny fluffy Pomeranian puppy in a soft blue-toned baby brother portrait. Natural lighting, photorealistic, square composition, no text, no watermark.",
-      "score": 3.64,
+      "url": "https://www.instagram.com/p/DZC2esKj0yJ/",
+      "source_type": "keyword",
+      "source_name": "#doglife",
+      "post_likes": 34000,
+      "age_days": 39.0,
+      "caption_en": "Was going to get angry about not getting treats, but couldn't — too cute 🤍",
+      "caption_zh": "想发脾气，结果太可爱了，算了",
+      "description": "Fluffy white dog with irresistibly sweet puppy eyes, so cute you forget to be stern",
+      "description_zh": "白色毛茸茸小狗用无辜大眼睛融化了所有人",
+      "highlight": "原谅你了 · 可爱到无法生气",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fluffy white dog with irresistibly sweet puppy eyes, so cute you forget to be stern. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.63,
       "score_breakdown": {
-        "absolute_likes": 2.64,
-        "source_bonus": 1.0,
+        "absolute_likes": 3.63,
+        "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 10
+      "rank": 8
+    },
+    {
+      "url": "https://www.instagram.com/p/DZZsBeWGRId/",
+      "source_type": "keyword",
+      "source_name": "#puppy",
+      "post_likes": 29000,
+      "age_days": 29.7,
+      "caption_en": "꼬순내 나게 생김 (Looks like it smells of puppies)",
+      "caption_zh": "天生可爱的样子",
+      "description": "Fluffy puppy with the classic baby-animal look — soft fur and an endearing expression",
+      "description_zh": "毛茸茸幼犬，表情天然萌，满满奶香感",
+      "highlight": "纯天然可爱 · 奶香拿捏",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fluffy puppy with the classic baby-animal look — soft fur and an endearing expression. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.57,
+      "score_breakdown": {
+        "absolute_likes": 3.57,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 9
     }
   ]
 }

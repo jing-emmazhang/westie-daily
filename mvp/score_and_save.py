@@ -153,6 +153,46 @@ if '_bundled' in dir() and _bundled is not None:
     _bundled.build_westie_prompt = build_westie_prompt
 
 
+# ── Source quota settings ────────────────────────────────────────────────────
+# Prevents any single account from dominating the Top 10.
+# Each @account: at most ACCOUNT_QUOTA posts.
+# All #keyword posts combined: at most KEYWORD_QUOTA posts.
+ACCOUNT_QUOTA  = 2   # max posts per @account in the final Top N
+KEYWORD_QUOTA  = 3   # max keyword/hashtag posts in total in the final Top N
+
+
+def apply_source_quota(
+    posts: list,
+    account_quota: int = ACCOUNT_QUOTA,
+    keyword_quota: int = KEYWORD_QUOTA,
+) -> list:
+    """
+    Walk through score-sorted posts and enforce per-source caps:
+    - Each @account: at most `account_quota` entries
+    - All hashtag/keyword posts combined: at most `keyword_quota` entries
+
+    Posts must be pre-sorted by score descending (highest first). The best
+    posts per source are kept; lower-ranked posts from the same source are
+    dropped to make room for diversity.
+    """
+    from collections import defaultdict
+    account_counts: dict = defaultdict(int)
+    keyword_count = 0
+    result = []
+    for post in posts:
+        stype = post.get("source_type", "keyword")
+        src   = post.get("source_name", "")
+        if stype == "account":
+            if account_counts[src] < account_quota:
+                account_counts[src] += 1
+                result.append(post)
+        else:  # keyword or explore
+            if keyword_count < keyword_quota:
+                keyword_count += 1
+                result.append(post)
+    return result
+
+
 # ── Cross-day deduplication helper ──────────────────────────────────────────
 
 def load_historical_urls(data_dir: str, current_output: str = None) -> set:
@@ -199,8 +239,32 @@ def rank_and_save(candidates: list, output_path: str = None, top_n: int = TOP_N)
                 print(f"ℹ️  Cross-day dedup: removed {filtered} already-seen post(s) "
                       f"({len(candidates)} remaining)")
 
-    # ── Step 2: delegate to bundled scorer (intra-day dedup + scoring + save) ─
-    return _bundled_rank_and_save(candidates, output_path=output_path, top_n=top_n)
+    # ── Step 2: score all candidates (no save yet — we apply quota first) ──────
+    # Pass top_n=9999 to get every scored+sorted post back; we slice after quota.
+    result = _bundled_rank_and_save(candidates, output_path=None, top_n=9999)
+
+    # ── Step 3: apply per-source quota ──────────────────────────────────────
+    all_posts = result["posts"]
+    quota_posts = apply_source_quota(all_posts)
+    top = quota_posts[:top_n]
+    for i, p in enumerate(top, 1):
+        p["rank"] = i
+    result["posts"] = top
+
+    dropped = len(all_posts) - len(top)
+    if dropped > 0:
+        print(f"ℹ️  Source quota: kept {len(top)} posts "
+              f"(dropped {dropped} lower-ranked posts from over-represented sources)")
+
+    # ── Step 4: save ────────────────────────────────────────────────────────
+    if output_path:
+        os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        print(f"✅ Top {len(top)} posts saved → {output_path}")
+        print(f"   ({result['total_candidates']} candidates total)")
+
+    return result
 
 
 if __name__ == "__main__":
