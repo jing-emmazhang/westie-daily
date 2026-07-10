@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-10",
+  "scraped_at": "2026-07-10 10:36:35",
+  "total_candidates": 1,
+  "posts": [
+    {
+      "url": "https://www.instagram.com/p/DYCkt4uCTx0/",
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "post_likes": 15000,
+      "age_days": 63.5,
+      "caption_en": "I'm 100% sure he is up to no good — who else agrees? #goldenretriever #sideeye #dog",
+      "caption_zh": "我100%确定他在搞事情，谁同意？",
+      "description": "Golden retriever caught in a classic side-eye moment, plotting something mischievous — highly relatable meme format",
+      "description_zh": "金毛被抓到经典斜眼表情，正在密谋坏事，超级共鸣的meme格式",
+      "highlight": "金毛斜眼密谋",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Golden retriever caught in a classic side-eye moment, plotting something mischievous — highly relatable meme format. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.34,
+      "score_breakdown": {
+        "absolute_likes": 3.34,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 1
+    }
+  ]
+}
