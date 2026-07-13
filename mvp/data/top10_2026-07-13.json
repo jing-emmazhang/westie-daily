@@ -11,7 +11,7 @@
       "source_name": "@itsdougthepug",
       "caption": "Haaland gives pug energy tbh ⚽️🇳🇴 #haaland #worldcup #norway #pug #funnydog",
       "description": "Pug dog reacting like a soccer star, funny sports-themed moment",
-      "highlight": "World Cup pug energy reel",
+      "highlight": "巴哥版哈兰德 · 世界杯特辑",
       "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Pug dog reacting like a soccer star, funny sports-themed moment. Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 5.5,
       "score_breakdown": {
@@ -19,7 +19,10 @@
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 1
+      "rank": 1,
+      "description_zh": "巴哥扮演足球明星，有趣的运动主题梗图",
+      "caption_en": "Haaland gives pug energy tbh ⚽️🇳🇴 #haaland #worldcup #norway #pug #funnydog",
+      "caption_zh": "哈兰德真的有巴哥能量啊 ⚽️🇳🇴"
     },
     {
       "url": "https://www.instagram.com/p/Dadqka3Ovce/",
@@ -29,7 +32,7 @@
       "source_name": "#dogsofig",
       "caption": "Forever trying and failing to be the favourite parent 😢💔",
       "description": "Dog clearly preferring one owner over another, funny relatable moment between dog and two people",
-      "highlight": "#dogsofig Top Post",
+      "highlight": "狗狗偏心现场 · 争宠败北",
       "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Dog clearly preferring one owner over another, funny relatable moment between dog and two people. Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 4.9,
       "score_breakdown": {
@@ -37,7 +40,10 @@
         "source_bonus": 0.0,
         "recency": 1.0
       },
-      "rank": 2
+      "rank": 2,
+      "description_zh": "狗狗明显偏爱其中一位主人，两位主人间的爆笑争宠日常",
+      "caption_en": "Forever trying and failing to be the favourite parent 😢💔",
+      "caption_zh": "永远在争最爱的位置，永远没赢过 😢💔"
     },
     {
       "url": "https://www.instagram.com/jordhammond/reel/DaNmspqD_Y-/",
@@ -47,7 +53,7 @@
       "source_name": "@jordhammond",
       "caption": "Vietnam workshop recap. Streets of Hanoi, mountain communities and rice terraces of Mù Cang Chải, fishing villages in central Vietnam.",
       "description": "Vietnam streets of Hanoi, lush mountain rice terraces, fishing village scenes at sunrise, authentic documentary photography",
-      "highlight": "Vietnam Hanoi streets to Mu Cang Chai rice terraces",
+      "highlight": "越南行摄复盘 · 梯田到渔村",
       "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Vietnam streets of Hanoi, lush mountain rice terraces, fishing village scenes at sunrise, authentic documentary photography. Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 4.85,
       "score_breakdown": {
@@ -55,7 +61,10 @@
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 3
+      "rank": 3,
+      "description_zh": "河内街头、木仓寨金色梯田、越南中部渔村晨光，纪录片质感",
+      "caption_en": "June has been a busy one! Wrapped up a 10-day Vietnam workshop — Hanoi streets, mountain rice terraces of Mu Cang Chai, fishing villages along the coast.",
+      "caption_zh": "六月太充实了！越南十天工作坊收官——河内街头、木仓寨梯田、中部渔村。"
     },
     {
       "url": "https://www.instagram.com/jordhammond/reel/Dac6PdEj2qs/",
@@ -65,7 +74,7 @@
       "source_name": "@jordhammond",
       "caption": "September Vietnam workshop. Ten days through northern and central Vietnam, rice terraces Mu Cang Chai, fishing communities along coast.",
       "description": "Vietnam harvest season, golden rice terraces in mountains, traditional village life, coastal fishing communities in morning light",
-      "highlight": "Vietnam rice terraces harvest season documentary",
+      "highlight": "越南秋收季 · 梯田金色时光",
       "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Vietnam harvest season, golden rice terraces in mountains, traditional village life, coastal fishing communities in morning light. Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 4.79,
       "score_breakdown": {
@@ -73,7 +82,10 @@
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 4
+      "rank": 4,
+      "description_zh": "越南丰收季节，金色梯田、传统村落与沿海渔村晨光",
+      "caption_en": "The September Vietnam workshop is coming up — 10 days through northern and central Vietnam, rice terraces Mu Cang Chai, fishing communities along the coast.",
+      "caption_zh": "九月越南摄影工作坊即将开始——十天穿越越南北部和中部，木仓寨梯田、沿海渔村。"
     },
     {
       "url": "https://www.instagram.com/tom_juenemann/reel/DV5nDpyDCzp/",
@@ -83,7 +95,7 @@
       "source_name": "@tom_juenemann",
       "caption": "Sony camera travel photographer reel. Rain-soaked forests in Nicaragua, Saudi Arabia deserts, Norway Northern Lights, European autumn scenery.",
       "description": "Cinematic travel montage: lush rainforest, vast desert, Northern Lights over mountains, colorful autumn European village",
-      "highlight": "Cinematic world travel landscapes compilation",
+      "highlight": "镜头走遍世界 · 从雨林到极光",
       "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Cinematic travel montage: lush rainforest, vast desert, Northern Lights over mountains, colorful autumn European village. Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 4.13,
       "score_breakdown": {
@@ -91,7 +103,10 @@
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 5
+      "rank": 5,
+      "description_zh": "电影感旅拍：尼加拉瓜雨林、沙特沙漠、挪威极光、欧洲秋景",
+      "caption_en": "Since 2018, my Sony camera has been more than just gear — it has been my passport to the world. 🌍📷 Rainforests in Nicaragua, deserts of Saudi Arabia, Northern Lights in Norway, European autumn.",
+      "caption_zh": "2018年起，索尼相机不只是装备——它是我走遍世界的通行证 🌍📷 尼加拉瓜雨林、沙特沙漠、挪威极光、欧洲秋景。"
     },
     {
       "url": "https://www.instagram.com/p/DY4nDtAxLHt/",
@@ -101,7 +116,7 @@
       "source_name": "#dogsofinstagram",
       "caption": "Holding paws > holding hands",
       "description": "Two dogs or a dog and human holding paws together, heartwarming close-up",
-      "highlight": "#dogsofinstagram Top Post",
+      "highlight": "握爪子比牵手更甜 · 百万点赞",
       "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Two dogs or a dog and human holding paws together, heartwarming close-up. Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 4.0,
       "score_breakdown": {
@@ -109,7 +124,10 @@
         "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 6
+      "rank": 6,
+      "description_zh": "两只狗或狗与人互相握爪，温暖治愈的特写镜头",
+      "caption_en": "Holding paws > holding hands",
+      "caption_zh": "握爪子 > 牵手"
     },
     {
       "url": "https://www.instagram.com/p/DZLzbIoRDP0/",
@@ -119,7 +137,7 @@
       "source_name": "#cutedog",
       "caption": "Not allowed to bark because it's 'too noisy'… Meanwhile Mom when her friends come over: 🗣️😂",
       "description": "Dog looking sulky/dramatic about noise rules, comedic expression indoors",
-      "highlight": "#cutedog Top Post",
+      "highlight": "凭什么只有我不能叫 · 双重标准",
       "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Dog looking sulky/dramatic about noise rules, comedic expression indoors. Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 4.0,
       "score_breakdown": {
@@ -127,7 +145,10 @@
         "source_bonus": 0.0,
         "recency": 0.0
       },
-      "rank": 7
+      "rank": 7,
+      "description_zh": "狗狗对「太吵」的规定愤愤不平，妈妈和朋友聊天却无限音量",
+      "caption_en": "Not allowed to bark because it's 'too noisy'… Meanwhile Mom when her friends come over: 🗣️😂",
+      "caption_zh": "我叫一声就说太吵……妈妈和朋友聊天的时候嗓门呢：🗣️😂"
     },
     {
       "url": "https://www.instagram.com/tom_juenemann/reel/DaplQNqMogX/",
@@ -137,7 +158,7 @@
       "source_name": "@tom_juenemann",
       "caption": "Is Norway on its way to becoming world champion? 🤯 #norway #haaland",
       "description": "Stunning Norwegian landscape drone footage, fjords and mountains, golden light",
-      "highlight": "Norway dramatic landscapes World Cup reel",
+      "highlight": "挪威要夺冠了吗 · 峡湾绝景助威",
       "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Stunning Norwegian landscape drone footage, fjords and mountains, golden light. Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 3.7,
       "score_breakdown": {
@@ -145,7 +166,10 @@
         "source_bonus": 1.0,
         "recency": 1.0
       },
-      "rank": 8
+      "rank": 8,
+      "description_zh": "挪威风景航拍，峡湾与山脉在金色光线中，世界杯应援氛围",
+      "caption_en": "Is Norway on its way to becoming world champion? 🤯 Who do you think will win — Norway or England? 🇳🇴🏴️󠁧󠁢󠁥󠁮󠁧󠁿 #norway #haaland",
+      "caption_zh": "挪威要夺冠了吗？🤯 你觉得谁会赢——挪威还是英格兰？🇳🇴"
     },
     {
       "url": "https://www.instagram.com/p/DZ5em9JRVu9/",
@@ -155,7 +179,7 @@
       "source_name": "@jiffpom",
       "caption": "",
       "description": "Fluffy Pomeranian dog in a cute pose",
-      "highlight": "@jiffpom recent post",
+      "highlight": "博美日常 · 蓬松软糯",
       "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fluffy Pomeranian dog in a cute pose. Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 3.64,
       "score_breakdown": {
@@ -163,7 +187,10 @@
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 9
+      "rank": 9,
+      "description_zh": "蓬松博美狗狗可爱造型日常",
+      "caption_en": "",
+      "caption_zh": ""
     },
     {
       "url": "https://www.instagram.com/my.ddalki/reel/DaFWbPVkYJR/",
@@ -173,7 +200,7 @@
       "source_name": "@my.ddalki",
       "caption": "",
       "description": "Korean Bichon Frise white fluffy dog cute moment",
-      "highlight": "@my.ddalki recent post",
+      "highlight": "草莓比熊 · 白绒绒日常",
       "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Korean Bichon Frise white fluffy dog cute moment. Natural lighting, photorealistic, square composition, no text, no watermark.",
       "score": 3.64,
       "score_breakdown": {
@@ -181,7 +208,10 @@
         "source_bonus": 1.0,
         "recency": 0.0
       },
-      "rank": 10
+      "rank": 10,
+      "description_zh": "韩系比熊草莓，白色蓬松，日常可爱瞬间",
+      "caption_en": "",
+      "caption_zh": ""
     }
   ]
 }
