@@ -17,6 +17,7 @@ import glob
 import json
 import math
 import os
+import re
 from datetime import datetime
 
 # ── Re-export everything from the bundled skill for backward compat ─────────
@@ -238,6 +239,22 @@ def rank_and_save(candidates: list, output_path: str = None, top_n: int = TOP_N)
             if filtered:
                 print(f"ℹ️  Cross-day dedup: removed {filtered} already-seen post(s) "
                       f"({len(candidates)} remaining)")
+
+    # ── Step 1b: normalize field names ─────────────────────────────────────────
+    # caption → caption_en  (frontend reads caption_en, not caption)
+    # highlight must be Chinese; warn if it looks like plain English
+    _CJK = re.compile(r'[一-鿿぀-ヿ]')
+    _warned = False
+    for c in candidates:
+        if c.get("caption") and not c.get("caption_en"):
+            c["caption_en"] = c.pop("caption")
+        elif "caption" in c:
+            c.pop("caption")          # drop stale caption key
+        hl = c.get("highlight", "")
+        if hl and not _CJK.search(hl) and not _warned:
+            print(f"⚠️  highlight looks non-Chinese: '{hl[:50]}' — "
+                  "set a Chinese title to display correctly on the page")
+            _warned = True
 
     # ── Step 2: score all candidates (no save yet — we apply quota first) ──────
     # Pass top_n=9999 to get every scored+sorted post back; we slice after quota.
