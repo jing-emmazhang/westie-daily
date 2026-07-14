@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-14",
+  "scraped_at": "2026-07-14 10:20:45",
+  "total_candidates": 9,
+  "posts": [
+    {
+      "url": "https://www.instagram.com/jordhammond/reel/DaiHpmDjcCe/",
+      "post_likes": 1998,
+      "age_days": 5,
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "highlight": "巴厘岛万人祭海游行 · 壮观人流",
+      "description": "Thousands of Balinese in white traditional attire descending to Atuh Beach for Nyepi ritual",
+      "description_zh": "数千名巴厘岛人身着白衣，缓缓走向阿图海滩举行祭海仪式，壮观震撼",
+      "caption_en": "One of the most remarkable processions I've ever witnessed. Thousands of Balinese making the descent to Atuh Beach, carrying temple heirlooms to the ocean to be cleansed before Nyepi.",
+      "caption_zh": "我见过最震撼的游行之一。数千名巴厘岛人手持庙宇传家宝，走向阿图海滩，在宁静节前祭海净化。",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Thousands of Balinese in white traditional attire descending to Atuh Beach for Nyepi ritual. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.64,
+      "score_breakdown": {
+        "absolute_likes": 2.64,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.instagram.com/p/DYeURBkA-vK/",
+      "post_likes": 166000,
+      "age_days": 56,
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "highlight": "狗狗手工皂 · 蓬松马尔济斯腾空飞",
+      "description": "Maltese dog leap captured as soap sculpture, fluffy and airborne",
+      "description_zh": "马尔济斯狗狗跳跃瞬间被做成手工皂，蓬松可爱，仿佛在飞",
+      "caption_en": "폴짝 비누🌷 (Leaping soap 🌷)",
+      "caption_zh": "跳跳皂 🌷 把狗狗最可爱的瞬间永远定格了",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Maltese dog leap captured as soap sculpture, fluffy and airborne. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://www.instagram.com/my.ddalki/reel/DawIc47BfwB/",
+      "post_likes": 300,
+      "age_days": 0.08,
+      "source_type": "account",
+      "source_name": "@my.ddalki",
+      "highlight": "草莓今天穿雨衣 · 2小时新帖",
+      "description": "Strawberry the Bichon in a yellow raincoat puddle-splashing, brand new post",
+      "description_zh": "草莓比熊穿黄色雨衣出来踩水坑，今天刚发的新帖超新鲜",
+      "caption_en": "물장구 치러 나온 병아리🐥 (The chick who came out to splash in puddles 🐥) — On rainy days, she wears a cute hat to go out ☔️",
+      "caption_zh": "出来踩水坑的小鸡🐥 雨天也要可可爱爱地出门 ☔️",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Strawberry the Bichon in a yellow raincoat puddle-splashing, brand new post. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.98,
+      "score_breakdown": {
+        "absolute_likes": 1.98,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 3
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/reel/DYR2DeKD9tw/",
+      "post_likes": 3905,
+      "age_days": 56,
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "highlight": "新手奶爸 · 带娃就近探索巴厘岛",
+      "description": "New father Jord explores Bali close to home during baby Penny's nap windows",
+      "description_zh": "初为人父的 Jord 趁宝宝 Penny 午睡的空档，在家附近15分钟范围探索巴厘岛",
+      "caption_en": "Becoming a father three months ago has left me with a lot less time to head off on bigger trips, and has forced me to slow down and spend time exploring closer to home.",
+      "caption_zh": "三个月前成为父亲后，长途旅行少了很多，被迫慢下来，开始探索家附近的美景。",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: New father Jord explores Bali close to home during baby Penny's nap windows. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.87,
+      "score_breakdown": {
+        "absolute_likes": 2.87,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://www.instagram.com/p/DZdWFmGuxAe/",
+      "post_likes": 2020,
+      "age_days": 28,
+      "source_type": "account",
+      "source_name": "@jiffpom",
+      "highlight": "博美 x Avril Lavigne · 奶昔联名",
+      "description": "Jiff Pom Pomeranian in milkshake-themed Avril Lavigne collab clip",
+      "description_zh": "博美 Jiff 联动 Avril Lavigne 奶昔主题，时尚可爱",
+      "caption_en": "Ⓜ️ m I l k s h a k e @avrillavigne 🩷",
+      "caption_zh": "Ⓜ️ 奶昔 @avrillavigne 🩷",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Jiff Pom Pomeranian in milkshake-themed Avril Lavigne collab clip. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.64,
+      "score_breakdown": {
+        "absolute_likes": 2.64,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 5
+    },
+    {
+      "url": "https://www.instagram.com/p/DY8Nj_9udK0/",
+      "post_likes": 1779,
+      "age_days": 42,
+      "source_type": "account",
+      "source_name": "@jiffpom",
+      "highlight": "博美奶昔 · 迷你图标挑战",
+      "description": "Jiff Pom doing milkshake dance challenge with tiny icon hashtag",
+      "description_zh": "博美 Jiff 挑战奶昔舞，蓬松小身体节奏超强",
+      "caption_en": "Ⓜ️ m I l k s h a k e #tinyicon",
+      "caption_zh": "Ⓜ️ 奶昔舞 #迷你图标",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Jiff Pom doing milkshake dance challenge with tiny icon hashtag. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.6,
+      "score_breakdown": {
+        "absolute_likes": 2.6,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 6
+    },
+    {
+      "url": "https://www.instagram.com/tom_juenemann/reel/Dar-UxOOLcu/",
+      "post_likes": 58,
+      "age_days": 1.75,
+      "source_type": "account",
+      "source_name": "@tom_juenemann",
+      "highlight": "德国魔幻建筑 · 认不出自己家了",
+      "description": "Surreal colorful tilted houses in a German village, looks like a puzzle",
+      "description_zh": "德国小镇彩色斜角房屋，像拼图打散了重组，视觉错乱感满满",
+      "caption_en": "Imagine having to double-check if this is really your own house… 😲 #architecture #germany #travel",
+      "caption_zh": "想象一下，你得反复确认这真的是自己家……😲 德国魔幻小镇",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Surreal colorful tilted houses in a German village, looks like a puzzle. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.41,
+      "score_breakdown": {
+        "absolute_likes": 1.41,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 7
+    },
+    {
+      "url": "https://www.instagram.com/p/DZ5WrrxNDb1/",
+      "post_likes": 1385,
+      "age_days": 21,
+      "source_type": "keyword",
+      "source_name": "#doglife",
+      "highlight": "期待已久的时刻终于来了",
+      "description": "Fluffy dog excitedly anticipating something, joyful moment",
+      "description_zh": "蓬松小狗激动等待某件大事到来，幸福满溢",
+      "caption_en": "She's been waiting for this moment 😆",
+      "caption_zh": "她等这一刻等太久了 😆",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Fluffy dog excitedly anticipating something, joyful moment. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 2.51,
+      "score_breakdown": {
+        "absolute_likes": 2.51,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 8
+    }
+  ]
+}
