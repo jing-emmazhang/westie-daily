@@ -1,0 +1,107 @@
+{
+  "date": "2026-07-15",
+  "scraped_at": "2026-07-15 10:03:50",
+  "total_candidates": 5,
+  "posts": [
+    {
+      "url": "https://www.instagram.com/my.ddalki/p/DZJ6h38kRtt/",
+      "post_likes": 15000,
+      "age_days": 40.8,
+      "source_type": "account",
+      "source_name": "@my.ddalki",
+      "highlight": "草莓午睡 · 抱着玩具睡着了",
+      "description": "Strawberry the Bichon napping while hugging a stuffed animal friend, peaceful and angelic",
+      "description_zh": "草莓比熊抱着玩具睡着了，安静的小天使，画面太治愈",
+      "caption_en": "아기 낮잠시간이에요 😴🌙 친구 꼭 껴안고 자는 천사가나디 🍼 (Baby nap time 😴🌙 Sleeping while hugging a friend like an angel 🍼)\n\n#귀여운강아지 #아기비숑 #비숑딸기 #cutedog",
+      "caption_zh": "宝宝午睡时间到啦 😴🌙 抱着小朋友睡着的天使🍼\n\n#可爱狗狗 #比熊草莓",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Strawberry the Bichon napping while hugging a stuffed animal friend, peaceful and angelic. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.34,
+      "score_breakdown": {
+        "absolute_likes": 3.34,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.instagram.com/ming9__mini/p/DZrOhI5neL1/",
+      "post_likes": 107000,
+      "age_days": 29,
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "highlight": "바보야 · 韩系卷毛傻乎乎",
+      "description": "Korean fluffy dog (Bichon-type) with dumb-cute expression, just staring blankly at the camera",
+      "description_zh": "韩系蓬松狗狗空洞看镜头，傻乎乎的表情让人忍不住喊它大傻瓜",
+      "caption_en": "바보야🤍 (You dummy 🤍)",
+      "caption_zh": "大傻瓜🤍 就这么傻傻看着你",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Korean fluffy dog (Bichon-type) with dumb-cute expression, just staring blankly at the camera. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://www.instagram.com/my.ddalki/reel/DayzaVXBC8V/",
+      "post_likes": 315,
+      "age_days": 0.1,
+      "source_type": "account",
+      "source_name": "@my.ddalki",
+      "highlight": "草莓的侧颜 · 美到发疯",
+      "description": "Strawberry the Bichon shot from the side profile, impossibly cute fluffy face",
+      "description_zh": "草莓比熊的侧颜特写，蓬松白毛和小巧侧脸可爱到让人心跳漏一拍",
+      "caption_en": "야르한 옆태 미치겠네 ㅠㅋㅋㅋ (This side profile is killing me ㅠㅋㅋㅋ)\n\n#귀여운강아지 #아기비숑 #cutedogreels #puppy #cutedog",
+      "caption_zh": "这侧颜真的把我迷得神魂颠倒 ㅠㅋㅋㅋ\n\n#可爱狗狗 #比熊宝宝 #萌宠",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Strawberry the Bichon shot from the side profile, impossibly cute fluffy face. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 2.0,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 3
+    },
+    {
+      "url": "https://www.instagram.com/jiffpom/p/DZYFLqWuqXW/",
+      "post_likes": 4798,
+      "age_days": 35.3,
+      "source_type": "account",
+      "source_name": "@jiffpom",
+      "highlight": "博美月光奶昔 · 蓬松闪耀",
+      "description": "Jiff Pom Pomeranian in a moonbeam-themed milkshake aesthetic, soft glowing visuals",
+      "description_zh": "博美 Jiff 演绎月光奶昔美学，柔光氛围，蓬松毛发在光晕中超梦幻",
+      "caption_en": "moonbeam milkshake 🩷 #tinyicon",
+      "caption_zh": "月光奶昔 🩷 #迷你图标",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Jiff Pom Pomeranian in a moonbeam-themed milkshake aesthetic, soft glowing visuals. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.94,
+      "score_breakdown": {
+        "absolute_likes": 2.94,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/reel/DZNJEHlj_I_/",
+      "post_likes": 2648,
+      "age_days": 36,
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "highlight": "33岁生日在巴厘岛 · 十年影像纪录",
+      "description": "Documentary photographer Jord Hammond celebrates birthday in Bali, reflecting on a decade of island life and photography",
+      "description_zh": "纪录片摄影师 Jord 在巴厘岛庆祝生日，回望十年岛屿生活与影像创作历程",
+      "caption_en": "Another lap around the sun, completed! When I first arrived in Bali, I never imagined I'd still be here nearly a decade later, camera in hand, documenting daily life across the island.",
+      "caption_zh": "又绕了太阳一圈！第一次来巴厘岛时，没想到十年后我还在这里，手持相机记录这座岛屿的日常。",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Documentary photographer Jord Hammond celebrates birthday in Bali, reflecting on a decade of island life and photography. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.74,
+      "score_breakdown": {
+        "absolute_likes": 2.74,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 5
+    }
+  ]
+}
