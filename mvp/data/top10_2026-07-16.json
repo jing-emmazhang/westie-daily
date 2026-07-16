@@ -1,0 +1,127 @@
+{
+  "date": "2026-07-16",
+  "scraped_at": "2026-07-16 10:29:04",
+  "total_candidates": 6,
+  "posts": [
+    {
+      "url": "https://www.instagram.com/itsdougthepug/reel/Da0YrJqqjF7/",
+      "post_likes": 3199,
+      "age_days": 0.5,
+      "source_type": "account",
+      "source_name": "@itsdougthepug",
+      "highlight": "Doug的Lamby到处都是 · 昨日新帖",
+      "description": "Doug the Pug surrounded by his beloved Lamby toy everywhere, fresh post from yesterday",
+      "description_zh": "巴哥 Doug 和他挚爱的 Lamby 玩具形影不离，到哪都带着它，昨天刚发的新帖",
+      "caption_en": "\"Lamby here, Lamby there…I've got Lamby's everywhere!\" -Doug\n\n#pug #dogsofinstagram #pugsofinstagram #dougthepug #lamby",
+      "caption_zh": "\"这里有Lamby，那里有Lamby……我的Lamby无处不在！\" —Doug\n\n#巴哥 #狗狗日常 #dougthepug",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Doug the Pug surrounded by his beloved Lamby toy everywhere, fresh post from yesterday. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.8,
+      "score_breakdown": {
+        "absolute_likes": 2.8,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.instagram.com/jiffpom/p/Da0nzJkOCfK/",
+      "post_likes": 2828,
+      "age_days": 0.3,
+      "source_type": "account",
+      "source_name": "@jiffpom",
+      "highlight": "Milky开会中 · 议题：阳光零食和可爱",
+      "description": "Jiff Pom's Milky character posing as if holding an important outdoor meeting, sun snacks and adorable vibes",
+      "description_zh": "Jiff Pom 旗下新角色 Milky 假装在开重要会议，议程：阳光、零食、可爱无限",
+      "caption_en": "breaking news:\nmilky spotted holding the most important meeting of the day.\nagenda items include sunshine, snacks, and looking impossibly adorable. ✨\n\n🧸☕️🌴💕",
+      "caption_zh": "突发新闻：\nMilky 正在主持今天最重要的会议。\n议程包括：阳光、零食、以及看起来impossibly可爱。✨\n\n🧸☕️🌴💕",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Jiff Pom's Milky character posing as if holding an important outdoor meeting, sun snacks and adorable vibes. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.76,
+      "score_breakdown": {
+        "absolute_likes": 2.76,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://www.instagram.com/jordhammond/p/Da0RCzqDcfl/",
+      "post_likes": 1776,
+      "age_days": 0.5,
+      "source_type": "account",
+      "source_name": "@jordhammond",
+      "highlight": "拍了几年才看见真正的巴厘岛",
+      "description": "Jord Hammond reflects on moving past tourist landmarks to find Bali's hidden, personal, quiet beauty after years of photography",
+      "description_zh": "摄影师 Jord 在巴厘岛拍了几年后，终于从火山、寺庙等经典地标转向了那些更安静、更私密的时刻",
+      "caption_en": "When I first started photographing Bali, I was mostly drawn to the obvious landmarks... The volcanoes, temples and dramatic light. But after years, I started to notice the quieter, more personal moments hiding in plain sight.",
+      "caption_zh": "刚开始拍巴厘岛时，我被那些显而易见的地标吸引——火山、寺庙、戏剧性的光线。但拍了几年后，我开始注意到那些藏在日常里更安静、更私密的瞬间。",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Jord Hammond reflects on moving past tourist landmarks to find Bali's hidden, personal, quiet beauty after years of photography. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.6,
+      "score_breakdown": {
+        "absolute_likes": 2.6,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 3
+    },
+    {
+      "url": "https://www.instagram.com/my.ddalki/p/Da0E651AbM1/",
+      "post_likes": 516,
+      "age_days": 0.6,
+      "source_type": "account",
+      "source_name": "@my.ddalki",
+      "highlight": "草莓迎接夏天 · 蓝色系夏日准备",
+      "description": "Strawberry the Bichon in a summer-themed setup, cool blue aesthetic, harness from smallstuff, brand new post",
+      "description_zh": "草莓比熊穿上新背带，蓝白夏日配色，开始为夏天做准备，昨天刚发",
+      "caption_en": "여름이 왔다 🧊🐬🪽🫧🫐🩵 시원하게 여름 준비 ing (Summer is here 🧊🐬🪽🫧🫐🩵 Preparing for summer coolly)\n\n딸기하네스 @smallstuff_official",
+      "caption_zh": "夏天来了🧊🐬🪽🫧🫐🩵 凉凉地开始准备夏天中...\n\n草莓背带 @smallstuff_official",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Strawberry the Bichon in a summer-themed setup, cool blue aesthetic, harness from smallstuff, brand new post. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.17,
+      "score_breakdown": {
+        "absolute_likes": 2.17,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 4
+    },
+    {
+      "url": "https://www.instagram.com/p/DY855xNyK6V/",
+      "post_likes": 645310,
+      "age_days": 47,
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "highlight": "可爱到窒息 · 日本迷你腊肠犬",
+      "description": "Japanese Kaninchen Dachshund with an irresistibly soft, blank happy expression staring at camera",
+      "description_zh": "日本迷你腊肠犬用空洞又幸福的眼神看着你，可爱到让人窒息",
+      "caption_en": "(*´︶`*)♡\n\n#かにんへんだっくすふんど #ちょこたんダックス #いぬすたぐらむ #信玄 #kaninchendachshund",
+      "caption_zh": "(*´︶`*)♡ 用这个表情看着我，我就没了 🤍",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Japanese Kaninchen Dachshund with an irresistibly soft, blank happy expression staring at camera. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 5
+    },
+    {
+      "url": "https://www.instagram.com/p/DYOswTVlN7-/",
+      "post_likes": 31690,
+      "age_days": 65,
+      "source_type": "keyword",
+      "source_name": "#doglife",
+      "highlight": "AI帮泰迪生成飞翔照 · 指令太难了",
+      "description": "Japanese Toy Poodle Nico's owner used AI to generate a flying/jumping photo, hilariously hard to prompt correctly",
+      "description_zh": "日本泰迪犬主人用AI给爱犬生成飞翔照，结果发现给AI下指令好难😂 反复修改才出了效果",
+      "caption_en": "みんなの真似してニコも飛んでみたよ🪶 (I had Nico try flying too, copying everyone 🪶) AI-generated, but the failures were funny — had to keep correcting: 'Nico is thinner!' 'Like jumping on a trampoline!'",
+      "caption_zh": "跟风让Nico也飞起来🪶 用AI生成但失败了好多次——[Nico更瘦一点][要像跳蹦床一样]😂 跟AI沟通真的好难",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Japanese Toy Poodle Nico's owner used AI to generate a flying/jumping photo, hilariously hard to prompt correctly. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.6,
+      "score_breakdown": {
+        "absolute_likes": 3.6,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 6
+    }
+  ]
+}
