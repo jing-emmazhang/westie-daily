@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-23",
+  "scraped_at": "2026-07-23 12:20:25",
+  "total_candidates": 2,
+  "posts": [
+    {
+      "url": "https://www.instagram.com/my.ddalki/reel/DbFFgMlRiv5/",
+      "post_likes": 1546,
+      "age_days": 1,
+      "source_type": "account",
+      "source_name": "@my.ddalki",
+      "highlight": "草莓小北极熊 · 夏日散步装备就位",
+      "description": "Strawberry the Bichon dressed as a fluffy polar bear cub in a cool summer walking jacket, ready for a walk",
+      "description_zh": "草莓比熊穿上夏日凉感散步外套，活像一只小北极熊，散步准备完毕🐻‍❄️",
+      "caption_en": "복슬한 우리집 곰돌이 🐻‍❄️ 산책 준비 완료 🌱\n\n여름에도 신나게 산책해야 하니까..\n시원한 쿨 워크자켓 입고 나가기 🤍\n\n🧊 @smallstuff_official #스몰스터프 #강아지옷 #강아지하네스",
+      "caption_zh": "我们家蓬松小熊 🐻‍❄️ 散步准备完毕 🌱\n\n夏天也要开心散步..\n穿上凉感散步外套出发 🤍\n\n🧊 @smallstuff_official #宠物服装 #狗狗背带",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Strawberry the Bichon dressed as a fluffy polar bear cub in a cool summer walking jacket, ready for a walk. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.55,
+      "score_breakdown": {
+        "absolute_likes": 2.55,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.instagram.com/p/DZO5hAfE8kr/",
+      "post_likes": 712022,
+      "age_days": 47.9,
+      "source_type": "keyword",
+      "source_name": "#dog",
+      "highlight": "콩콩이到底有多好看 · 韩系宠物写真",
+      "description": "Korean dog named Kongkongi (Beany) photographed beautifully, couple and their fluffy dog in warm aesthetic",
+      "description_zh": "韩国狗狗콩콩이的宠物写真，主人和蓬松爱犬的温馨日常，画面精致治愈",
+      "caption_en": "우리 콩콩이 이쁘다~~ 한장만 더 찍자♡\n\n#커플 #사진작가",
+      "caption_zh": "我们的콩콩이好好看~~ 再多拍一张♡\n\n#情侣 #摄影师",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Korean dog named Kongkongi (Beany) photographed beautifully, couple and their fluffy dog in warm aesthetic. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.0,
+      "score_breakdown": {
+        "absolute_likes": 4.0,
+        "source_bonus": 0.0,
+        "recency": 0.0
+      },
+      "rank": 2
+    }
+  ]
+}
