@@ -1,0 +1,67 @@
+{
+  "date": "2026-07-24",
+  "scraped_at": "2026-07-24 10:52:18",
+  "total_candidates": 3,
+  "posts": [
+    {
+      "url": "https://www.instagram.com/my.ddalki/reel/Da4SD3YRS2e/",
+      "post_likes": 2342,
+      "age_days": 7,
+      "source_type": "account",
+      "source_name": "@my.ddalki",
+      "highlight": "草莓变身小汤圆 · 身材比例满分",
+      "description": "Strawberry the Bichon with a perfectly round, fluffy body compared to a 1:1 joraengi-tteok Korean rice cake — the cutest ratio",
+      "description_zh": "草莓比熊圆滚滚的身材被比作1:1的韩式汤圆糯米糕，萌力爆棚",
+      "caption_en": "치명적인 몸매 1:1 조랭이떡 🤍\n\n#귀여운강아지 #cutedogreels #아기비숑 #puppy #dogstagram",
+      "caption_zh": "致命好身材 1:1 小汤圆比例 🤍\n\n#可爱狗狗 #比熊宝宝 #萌宠",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Strawberry the Bichon with a perfectly round, fluffy body compared to a 1:1 joraengi-tteok Korean rice cake — the cutest ratio. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.7,
+      "score_breakdown": {
+        "absolute_likes": 2.7,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 1
+    },
+    {
+      "url": "https://www.instagram.com/my.ddalki/p/Da1xGWlkRLg/",
+      "post_likes": 1218,
+      "age_days": 7.9,
+      "source_type": "account",
+      "source_name": "@my.ddalki",
+      "highlight": "棉花糖草莓 · 软软甜甜就是你",
+      "description": "Strawberry the Bichon looking exactly like fluffy sweet cotton candy, impossibly soft and round",
+      "description_zh": "草莓比熊整个人就是棉花糖，蓬松软甜，看一眼就融化",
+      "caption_en": "귀여운 솜방망이야 ᘏ⑅ᘏ ₊ ✩ ｡ ˚🤍\n보송 달달 솜사탕 그 자체 🤍☁️🍓",
+      "caption_zh": "你就是可爱的棉花球 ᘏ⑅ᘏ ₊ ✩ ｡ ˚🤍\n蓬松香甜的棉花糖本体 🤍☁️🍓",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Strawberry the Bichon looking exactly like fluffy sweet cotton candy, impossibly soft and round. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 4.47,
+      "score_breakdown": {
+        "absolute_likes": 2.47,
+        "source_bonus": 1.0,
+        "recency": 1.0
+      },
+      "rank": 2
+    },
+    {
+      "url": "https://www.instagram.com/jiffpom/p/DZ5em9JRVu9/",
+      "post_likes": 2126,
+      "age_days": 31.3,
+      "source_type": "account",
+      "source_name": "@jiffpom",
+      "highlight": "博美小蓝弟 · tinyicon 新篇",
+      "description": "Jiff Pom presenting a baby brother character in soft blue aesthetic, new chapter in the tinyicon series",
+      "description_zh": "博美 Jiff 以蓝色温柔美学推出小弟弟角色，tinyicon 系列新一篇",
+      "caption_en": "Baby Bro 🩵 #tinyicon",
+      "caption_zh": "小蓝弟弟 🩵 #迷你图标",
+      "westie_prompt": "A West Highland White Terrier, pure white fluffy fur, bright eyes, small black nose. Scene inspired by: Jiff Pom presenting a baby brother character in soft blue aesthetic, new chapter in the tinyicon series. Natural lighting, photorealistic, square composition, no text, no watermark.",
+      "score": 3.66,
+      "score_breakdown": {
+        "absolute_likes": 2.66,
+        "source_bonus": 1.0,
+        "recency": 0.0
+      },
+      "rank": 3
+    }
+  ]
+}
